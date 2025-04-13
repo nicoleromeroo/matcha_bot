@@ -1,5 +1,6 @@
 # Requirement List – Matcha Stock Notification Bot
 
+
 ## 1. Functional Requirements
 
 F1	The system shall regularly (every 5 minutes or optional time) check one or more websites.
