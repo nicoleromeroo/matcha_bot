@@ -7,6 +7,11 @@ import json
 import os
 from urllib.parse import urlparse
 
+from flask import Flask
+
+app = Flask(__name__)
+
+
 # CONFIG
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1360923896190341200/IO-huqmc6U6DjCJPqYC7-IhL4-Awr7sqKV19uagpoeP3eiVrSRY6AukPdlhrMtnmY4YE"
 YEN_TO_EURO = 0.0061
