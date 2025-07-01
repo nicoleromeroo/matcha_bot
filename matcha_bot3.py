@@ -6,6 +6,8 @@ import time
 import json
 import os
 from urllib.parse import urlparse
+from flask import Flask, jsonify
+import threading
 
 # CONFIG
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1360923896190341200/IO-huqmc6U6DjCJPqYC7-IhL4-Awr7sqKV19uagpoeP3eiVrSRY6AukPdlhrMtnmY4YE"
@@ -169,7 +171,39 @@ def job():
 
 schedule.every(30).seconds.do(job)
 
-print("🟢 Bot running…")
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# --- Flask Setup ---
+app = Flask(__name__)
+bot_thread = None
+stop_flag = False
+
+def run_bot():
+    global stop_flag
+    schedule.every(30).seconds.do(job)
+    print("🟢 Bot running…")
+    while not stop_flag:
+        schedule.run_pending()
+        time.sleep(1)
+    print("🛑 Bot stopped.")
+
+@app.route("/")
+def home():
+    return "✅ Matcha Bot is online"
+
+@app.route("/start")
+def start():
+    global bot_thread, stop_flag
+    if bot_thread and bot_thread.is_alive():
+        return jsonify({"status": "already running"})
+    stop_flag = False
+    bot_thread = threading.Thread(target=run_bot)
+    bot_thread.start()
+    return jsonify({"status": "started"})
+
+@app.route("/stop")
+def stop():
+    global stop_flag
+    stop_flag = True
+    return jsonify({"status": "stopping"})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
