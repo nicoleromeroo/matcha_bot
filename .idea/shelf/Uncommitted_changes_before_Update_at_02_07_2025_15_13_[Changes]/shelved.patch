@@ -1,0 +1,201 @@
+Index: matcha_bot2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/matcha_bot2.py b/matcha_bot2.py
+new file mode 100644
+--- /dev/null	(date 1751371424319)
++++ b/matcha_bot2.py	(date 1751371424319)
+@@ -0,0 +1,190 @@
++import os
++import time
++import requests
++import json
++from playwright.sync_api import sync_playwright
++from dotenv import load_dotenv
++
++load_dotenv()
++
++WEBSITE_URL = "https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR"
++CHECK_INTERVAL = 300  # 5 minutes
++DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
++USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
++
++
++def get_product_links():
++    """Get all product links from the catalog page"""
++    with sync_playwright() as p:
++        browser = p.chromium.launch(headless=False)
++        context = browser.new_context(user_agent=USER_AGENT)
++        page = context.new_page()
++
++        try:
++            page.goto(WEBSITE_URL, timeout=120000)
++            page.wait_for_selector("li.product", timeout=30000)
++
++            # Get all product links
++            product_links = page.eval_on_selector_all(
++                "li.product a.woocommerce-loop-product__link",
++                "elements => elements.map(el => el.href)"
++            )
++
++            return list(set(product_links))  # Remove duplicates
++
++        except Exception as e:
++            print(f"Error getting product links: {e}")
++            return []
++        finally:
++            browser.close()
++
++
++def check_product_page(url):
++    """Check individual product page for stock status"""
++    with sync_playwright() as p:
++        browser = p.chromium.launch(headless=False)
++        context = browser.new_context(user_agent=USER_AGENT)
++        page = context.new_page()
++
++        try:
++            page.goto(url, timeout=60000)
++
++            # Handle cookie consent if needed
++            try:
++                page.click('text=Accept All', timeout=5000)
++            except Exception:
++                pass
++
++            # Wait for product page to load
++            page.wait_for_selector('.product_title', timeout=30000)
++
++            # Get product name
++            product_name = page.inner_text('.product_title').strip()
++
++            # Check all variants
++            variants = []
++            variant_elements = page.query_selector_all('.variations_form .variations tr')
++
++            for variant in variant_elements:
++                label = variant.query_selector('th label').inner_text().strip()
++                options = variant.query_selector_all('td select option')
++                for option in options[1:]:  # Skip first default option
++                    variant_name = option.inner_text().strip()
++                    variants.append(f"{label}: {variant_name}")
++
++            # Check stock status for each variant
++            stock_info = []
++            add_to_cart_button = page.query_selector('button.single_add_to_cart_button')
++
++            if add_to_cart_button:
++                is_disabled = add_to_cart_button.get_attribute('disabled') is not None
++                status = "🟢 IN STOCK" if not is_disabled else "🔴 OUT OF STOCK"
++
++                # Get price information
++                price_element = page.query_selector('.price .woocommerce-Price-amount')
++                price = price_element.inner_text().strip() if price_element else "N/A"
++
++                stock_info.append({
++                    "variant": "Default",
++                    "status": status,
++                    "price": price
++                })
++
++            # If no variants found, check simple stock status
++            if not variants and not stock_info:
++                stock_status = page.query_selector('.stock')
++                status = "🟢 IN STOCK" if stock_status and "in stock" in stock_status.inner_text().lower() else "🔴 OUT OF STOCK"
++
++                price_element = page.query_selector('.price .woocommerce-Price-amount')
++                price = price_element.inner_text().strip() if price_element else "N/A"
++
++                stock_info.append({
++                    "variant": "Default",
++                    "status": status,
++                    "price": price
++                })
++
++            return {
++                "name": product_name,
++                "variants": variants,
++                "stock_info": stock_info,
++                "link": url
++            }
++
++        except Exception as e:
++            print(f"Error checking {url}: {e}")
++            return {
++                "name": "Unknown Product",
++                "variants": [],
++                "stock_info": [{"variant": "Error", "status": "❔ ERROR", "price": "N/A"}],
++                "link": url
++            }
++        finally:
++            browser.close()
++
++
++def monitor_products():
++    print("✅ Stock monitor started")
++    while True:
++        print(f"\n⏳ Checking stock at {time.strftime('%Y-%m-%d %H:%M:%S')}")
++
++        try:
++            products = []
++            product_links = get_product_links()
++
++            for link in product_links:
++                print(f"Checking {link}")
++                result = check_product_page(link)
++                products.append(result)
++                time.sleep(2)
++
++            send_discord_report(products)
++            print(f"📩 Reported {len(products)} products")
++
++            time.sleep(CHECK_INTERVAL)
++
++        except Exception as e:
++            print(f"❌ Error: {e}")
++            time.sleep(60)
++
++
++def send_discord_report(products):
++    if not products:
++        return
++
++    current_time = time.strftime("%Y-%m-%d %H:%M:%S")
++    in_stock_count = sum(1 for p in products for s in p['stock_info'] if "🟢" in s['status'])
++
++    embeds = []
++    for product in products:
++        fields = []
++        for stock in product['stock_info']:
++            fields.append({
++                "name": f"{stock['status']} {product['name']} ({stock['variant']})",
++                "value": f"**Price:** {stock['price']}\n[View Product]({product['link']})",
++                "inline": False
++            })
++
++        embeds.append({
++            "title": f"🍵 {product['name']}",
++            "color": 0x00FF00 if any("🟢" in s['status'] for s in product['stock_info']) else 0xFF0000,
++            "fields": fields,
++            "footer": {"text": f"Last updated: {current_time}"}
++        })
++
++    try:
++        response = requests.post(
++            DISCORD_WEBHOOK,
++            json={
++                "content": f"**Stock Update ({in_stock_count} items In Stock)**",
++                "embeds": embeds
++            },
++            headers={"Content-Type": "application/json"}
++        )
++        response.raise_for_status()
++    except requests.RequestException as e:
++        print(f"Discord error: {e}")
++
++
++if __name__ == "__main__":
++    monitor_products()
+\ No newline at end of file

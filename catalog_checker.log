@@ -1,0 +1,2150 @@
+2025-04-13 16:08:24,795 - INFO - Discord notification sent successfully.
+2025-04-13 16:08:25,601 - INFO - Auth file age: 2.94 hours (max: 24.00 hours)
+2025-04-13 16:08:25,601 - INFO - Using stored auth state.
+2025-04-13 16:08:25,871 - INFO - Auth file age: 2.94 hours (max: 24.00 hours)
+2025-04-13 16:08:25,871 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:08:50,926 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-08-50-927Z.png
+2025-04-13 16:08:51,457 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-08-51-464Z.html
+2025-04-13 16:08:52,096 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Kiwami Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1 |
+| Unkaku | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1 |
+| Wako | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1 |
+| Tenju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1 |
+| Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1 |
+| Eiju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1 |
+| Kinrin | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1 |
+| Yugen | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1 |
+| Chigi no Shiro | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1 |
+| Isuzu | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1 |
+| Aoarashi | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1 |
+2025-04-13 16:08:52,435 - INFO - Discord notification sent successfully.
+2025-04-13 16:16:29,781 - INFO - Discord notification sent successfully.
+2025-04-13 16:16:30,546 - INFO - Auth file age: 3.07 hours (max: 24.00 hours)
+2025-04-13 16:16:30,546 - INFO - Using stored auth state.
+2025-04-13 16:16:30,795 - INFO - Auth file age: 3.07 hours (max: 24.00 hours)
+2025-04-13 16:16:30,795 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:16:46,391 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-16-46-390Z.png
+2025-04-13 16:16:46,799 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-16-46-798Z.html
+2025-04-13 16:16:46,945 - INFO - Page structure analysis:
+Found product container: ul.products - Count: 1
+  - Found 11 product items using: ul.products li
+  - Found 11 product items using: ul.products .product
+Detected possible WooCommerce platform
+2025-04-13 16:16:46,950 - INFO - Catalog page loaded: Principal matcha | Products | Marukyu Koyamaen Online Shop - https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:16:46,957 - INFO - Appears to be logged in: False
+2025-04-13 16:16:46,964 - INFO - Found 11 products using selector: ul.products li.product
+2025-04-13 16:16:48,267 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Kiwami Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1 |
+| Unkaku | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1 |
+| Wako | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1 |
+| Tenju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1 |
+| Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1 |
+| Eiju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1 |
+| Kinrin | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1 |
+| Yugen | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1 |
+| Chigi no Shiro | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1 |
+| Isuzu | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1 |
+| Aoarashi | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1 |
+
+Found 11 products using selector: ul.products li.product
+2025-04-13 16:16:48,288 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-16-48-287Z.png
+2025-04-13 16:16:49,352 - INFO - Discord notification sent successfully.
+2025-04-13 16:27:41,790 - INFO - Navigating to catalog page: None
+2025-04-13 16:27:41,790 - ERROR - Error checking catalog: Frame.goto() missing 1 required positional argument: 'url'
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 154, in main
+    page.goto(config.url, timeout=config.timeout_ms)
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9020, in goto
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Frame.goto() missing 1 required positional argument: 'url'
+2025-04-13 16:27:41,790 - WARNING - Discord webhook URL not configured; skipping notification.
+2025-04-13 16:29:09,059 - INFO - Navigating to catalog page: None
+2025-04-13 16:29:09,062 - ERROR - Error checking catalog: Frame.goto() missing 1 required positional argument: 'url'
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 154, in main
+    page.goto(config.url, timeout=config.timeout_ms)
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9020, in goto
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Frame.goto() missing 1 required positional argument: 'url'
+2025-04-13 16:29:09,063 - WARNING - Discord webhook URL not configured; skipping notification.
+2025-04-13 16:34:22,575 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:34:41,487 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-34-41-490Z.png
+2025-04-13 16:34:41,929 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-34-41-931Z.html
+2025-04-13 16:34:42,392 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Kiwami Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1 |
+| Unkaku | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1 |
+| Wako | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1 |
+| Tenju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1 |
+| Choan | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1 |
+| Eiju | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1 |
+| Kinrin | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1 |
+| Yugen | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1 |
+| Chigi no Shiro | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1 |
+| Isuzu | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1 |
+| Aoarashi | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1 |
+
+Found 11 products using selector: ul.products li.product
+2025-04-13 16:34:42,405 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-34-42-406Z.png
+2025-04-13 16:34:54,469 - INFO - Discord notification sent successfully.
+2025-04-13 16:39:15,839 - INFO - Navigating to catalog page: None
+2025-04-13 16:39:15,841 - ERROR - Error checking catalog: Frame.goto() missing 1 required positional argument: 'url'
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 160, in main
+    page.goto(config.url, timeout=config.timeout_ms)
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9020, in goto
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Frame.goto() missing 1 required positional argument: 'url'
+2025-04-13 16:39:15,842 - WARNING - Discord webhook URL not configured; skipping notification.
+2025-04-13 16:39:39,948 - INFO - Navigating to catalog page: None
+2025-04-13 16:39:39,950 - ERROR - Error checking catalog: Frame.goto() missing 1 required positional argument: 'url'
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 158, in main
+    page.goto(config.url, timeout=config.timeout_ms)
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9020, in goto
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Frame.goto() missing 1 required positional argument: 'url'
+2025-04-13 16:39:39,952 - WARNING - Discord webhook URL not configured; skipping notification.
+2025-04-13 16:42:27,972 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:42:41,669 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-42-41-668Z.png
+2025-04-13 16:42:42,083 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-42-42-082Z.html
+2025-04-13 16:42:42,154 - INFO - Product: Kiwami Choan, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:42:42,193 - INFO - Product: Unkaku, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,237 - INFO - Product: Wako, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,279 - INFO - Product: Tenju, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:42:42,327 - INFO - Product: Choan, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:42:42,362 - INFO - Product: Eiju, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,395 - INFO - Product: Kinrin, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,432 - INFO - Product: Yugen, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:42:42,468 - INFO - Product: Chigi no Shiro, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:42:42,505 - INFO - Product: Isuzu, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,541 - INFO - Product: Aoarashi, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:42:42,541 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Kiwami Choan | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1 |
+| Unkaku | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1 |
+| Wako | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1 |
+| Tenju | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1 |
+| Choan | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1 |
+| Eiju | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1 |
+| Kinrin | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1 |
+| Yugen | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1 |
+| Chigi no Shiro | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1 |
+| Isuzu | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1 |
+| Aoarashi | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1 |
+
+Found 11 products using selector: ul.products li.product
+2025-04-13 16:42:42,555 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-42-42-555Z.png
+2025-04-13 16:42:43,584 - INFO - Discord notification sent successfully.
+2025-04-13 16:45:05,439 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 16:45:27,083 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-45-27-082Z.png
+2025-04-13 16:45:27,502 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-45-27-501Z.html
+2025-04-13 16:45:27,600 - INFO - Product: Kiwami Choan, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:45:27,652 - INFO - Product: Unkaku, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:27,701 - INFO - Product: Wako, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:27,759 - INFO - Product: Tenju, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:45:27,808 - INFO - Product: Choan, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:45:27,854 - INFO - Product: Eiju, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:27,898 - INFO - Product: Kinrin, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:27,958 - INFO - Product: Yugen, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:45:28,011 - INFO - Product: Chigi no Shiro, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:45:28,061 - INFO - Product: Isuzu, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:28,111 - INFO - Product: Aoarashi, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:45:28,112 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Kiwami Choan | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1 |
+| Unkaku | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1 |
+| Wako | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1 |
+| Tenju | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1 |
+| Choan | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1 |
+| Eiju | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1 |
+| Kinrin | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1 |
+| Yugen | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1 |
+| Chigi no Shiro | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1 |
+| Isuzu | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1 |
+| Aoarashi | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1 |
+
+Found 11 products using selector: ul.products li.product
+2025-04-13 16:45:28,123 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-45-28-122Z.png
+2025-04-13 16:45:29,111 - INFO - Discord notification sent successfully.
+2025-04-13 16:46:04,285 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 16:46:25,863 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-46-25-861Z.png
+2025-04-13 16:46:26,189 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-46-26-193Z.html
+2025-04-13 16:46:26,288 - INFO - Product: Hojicha Mix, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:46:26,349 - INFO - Product: Matcha Soda, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:46:26,403 - INFO - Product: Sweetened Matcha – Excellent, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:46:26,453 - INFO - Product: Sweetened Matcha – Designed For Milk, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:46:26,511 - INFO - Product: Matcha Mix, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:46:26,511 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 16:46:26,519 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-46-26-522Z.png
+2025-04-13 16:46:38,760 - INFO - Discord notification sent successfully.
+2025-04-13 16:50:10,598 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 16:50:20,882 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-50-20-881Z.png
+2025-04-13 16:50:21,185 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-50-21-184Z.html
+2025-04-13 16:50:21,269 - INFO - Product: Hojicha Mix, ClassAttr: product product-type-variable status-publish first, Availability: Unknown
+2025-04-13 16:50:21,318 - INFO - Product: Matcha Soda, ClassAttr: product product-type-variable status-publish , Availability: Unknown
+2025-04-13 16:50:21,363 - INFO - Product: Sweetened Matcha – Excellent, ClassAttr: product product-type-variable status-publish , Availability: Unknown
+2025-04-13 16:50:21,412 - INFO - Product: Sweetened Matcha – Designed For Milk, ClassAttr: product product-type-variable status-publish last, Availability: Unknown
+2025-04-13 16:50:21,459 - INFO - Product: Matcha Mix, ClassAttr: product product-type-variable status-publish first, Availability: Unknown
+2025-04-13 16:50:21,460 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 16:50:21,470 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-50-21-470Z.png
+2025-04-13 16:50:33,380 - INFO - Discord notification sent successfully.
+2025-04-13 16:55:21,467 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 16:55:32,236 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-55-32-235Z.png
+2025-04-13 16:55:32,518 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-55-32-518Z.html
+2025-04-13 16:55:32,584 - ERROR - Error checking catalog: name 'class_attr' is not defined
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 164, in main
+    table = extract_catalog_data(page, debug_helper)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 132, in extract_catalog_data
+    logger.info(f"Product: {name}, ClassAttr: {class_attr}, Availability: {availability}")
+                                               ^^^^^^^^^^
+NameError: name 'class_attr' is not defined
+2025-04-13 16:55:33,749 - INFO - Discord notification sent successfully.
+2025-04-13 16:59:09,413 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 16:59:19,321 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T14-59-19-320Z.png
+2025-04-13 16:59:19,624 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T14-59-19-623Z.html
+2025-04-13 16:59:19,710 - INFO - Product: Hojicha Mix, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:59:19,759 - INFO - Product: Matcha Soda, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:59:19,804 - INFO - Product: Sweetened Matcha – Excellent, Classes: ['product', 'product-type-variable', 'status-publish'], Availability: Unknown
+2025-04-13 16:59:19,851 - INFO - Product: Sweetened Matcha – Designed For Milk, Classes: ['product', 'product-type-variable', 'status-publish', 'last'], Availability: Unknown
+2025-04-13 16:59:19,901 - INFO - Product: Matcha Mix, Classes: ['product', 'product-type-variable', 'status-publish', 'first'], Availability: Unknown
+2025-04-13 16:59:19,901 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 16:59:19,911 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T14-59-19-912Z.png
+2025-04-13 16:59:31,810 - INFO - Discord notification sent successfully.
+2025-04-13 17:04:39,352 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:04:49,557 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-04-49-556Z.png
+2025-04-13 17:04:49,882 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-04-49-881Z.html
+2025-04-13 17:04:49,965 - INFO - Product: Hojicha Mix, ClassName: product product-type-variable status-publish first, Availability: Unknown
+2025-04-13 17:04:50,013 - INFO - Product: Matcha Soda, ClassName: product product-type-variable status-publish , Availability: Unknown
+2025-04-13 17:04:50,060 - INFO - Product: Sweetened Matcha – Excellent, ClassName: product product-type-variable status-publish , Availability: Unknown
+2025-04-13 17:04:50,106 - INFO - Product: Sweetened Matcha – Designed For Milk, ClassName: product product-type-variable status-publish last, Availability: Unknown
+2025-04-13 17:04:50,158 - INFO - Product: Matcha Mix, ClassName: product product-type-variable status-publish first, Availability: Unknown
+2025-04-13 17:04:50,158 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 17:04:50,170 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T15-04-50-169Z.png
+2025-04-13 17:05:02,867 - INFO - Discord notification sent successfully.
+2025-04-13 17:13:08,906 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:13:34,225 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-13-34-224Z.png
+2025-04-13 17:13:34,539 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-13-34-539Z.html
+2025-04-13 17:13:34,623 - ERROR - Error checking catalog: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:1:10)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 162, in main
+    table = extract_catalog_data(page, debug_helper)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 128, in extract_catalog_data
+    availability = page.evaluate("el => el.classList.contains('outofstock') ? 'Sold Out' : (el.classList.contains('instock') ? 'Available' : 'Unknown')", prod)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8532, in evaluate
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:1:10)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-04-13 17:13:36,353 - INFO - Discord notification sent successfully.
+2025-04-13 17:16:43,113 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:16:53,028 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-16-53-027Z.png
+2025-04-13 17:16:53,317 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-16-53-317Z.html
+2025-04-13 17:16:53,389 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 17:16:53,431 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 17:16:53,470 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 17:16:53,510 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 17:16:53,555 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 17:16:53,555 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 17:16:53,569 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T15-16-53-568Z.png
+2025-04-13 17:16:56,745 - INFO - Discord notification sent successfully.
+2025-04-13 17:23:47,718 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:24:12,310 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-24-12-308Z.png
+2025-04-13 17:24:12,647 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-24-12-647Z.html
+2025-04-13 17:24:12,716 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 17:24:12,748 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 17:24:12,780 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 17:24:12,812 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 17:24:12,844 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 17:24:12,844 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 17:24:12,856 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T15-24-12-855Z.png
+2025-04-13 17:24:13,746 - INFO - Discord notification sent successfully.
+2025-04-13 17:25:47,003 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:25:51,937 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-25-51-936Z.png
+2025-04-13 17:25:52,234 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-25-52-233Z.html
+2025-04-13 17:25:52,261 - INFO - Taking screenshot: debug_screenshots\products_list_structure_2025-04-13T15-25-52-260Z.png
+2025-04-13 17:25:52,551 - INFO - Saving HTML: debug_screenshots\products_list_html_2025-04-13T15-25-52-550Z.html
+2025-04-13 17:25:52,573 - INFO - Sample product HTML structure: <li class="product product-type-variable status-publish first" id="item-15541"> <a class="woocommerce-loop-product__link" href="https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6" title="Hojicha Mix" data-item="{&quot;item_id&quot;:&quot;1G28200C6&quot;,&quot;item_name&quot;:&quot;Hojicha Mix&quot;}"> <span class="product-flashs"><span class="product-flash">Hojicha (Roasted green tea)</span></span><div class="product-image"><img width="400" height="400" src="https://www.marukyu-koyamaen.co.jp/english/shop/wp-content/uploads/2021/06/11-04-hojicha_mix_200g-400x400.jpg" class=" attachment-square wp-post-image" alt="    	" decoding="async" fetchpriority="high" ratio="square" srcset="https://www.marukyu-koyamaen.co.jp/english/shop/wp-content/uploads/2021/06/11-04-hojicha_mix_200g-400x400.jpg 400w, https://www.marukyu-koyamaen.co.jp/english/shop/wp-content/uploads/2021/06/11-04-hojicha_mix_200g-200x200.jpg 200w, https://www.marukyu-koyamaen.co.jp/english/shop/wp-content/uploads/2021/06/11-04-hojicha_mix_200g.jpg 600w" sizes="(max-width: 400px) 100vw, 400px"></div><div class="product-name"><h4>Hojicha Mix</h4></div><div class="product-price price"><span class="woocs_price_code woocs_price_JPY" data-currency="" data-redraw-id="67fbd77a0bdcf" data-product-id="15541" style="display: none;"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">¥</span>600</bdi></span></span><span class="woocs_price_code woocs_price_USD" data-currency="" data-redraw-id="67fbd77a0bee4" data-product-id="15541" style="display: none;"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>4<small class="woocommerce-Price-decimal">.15</small></bdi></span></span><span class="woocs_price_code woocs_price_EUR" data-currency="" data-redraw-id="67fbd77a0bc8c" data-product-id="15541" style="display: inline;"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>3<small class="woocommerce-Price-decimal">.71</small></bdi></span></span><span class="woocs_price_code woocs_price_GBP" data-currency="" data-redraw-id="67fbd77a0c004" data-product-id="15541" style="display: none;"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>3<small class="woocommerce-Price-decimal">.20</small></bdi></span></span><span class="woocs_price_code woocs_price_CNY" data-currency="" data-redraw-id="67fbd77a0c171" data-product-id="15541" style="display: none;"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">¥</span>30<small class="woocommerce-Price-decimal">.55</small></bdi></span></span></div> </a></li>
+2025-04-13 17:25:52,649 - WARNING - Could not determine stock status for product: Hojicha Mix. Defaulting to 'Available'.
+2025-04-13 17:25:52,650 - WARNING - Product classes: product product-type-variable status-publish first
+2025-04-13 17:25:52,650 - WARNING - Has add to cart button: False
+2025-04-13 17:25:52,650 - INFO - Product: Hojicha Mix, Availability: Available
+2025-04-13 17:25:52,710 - WARNING - Could not determine stock status for product: Matcha Soda. Defaulting to 'Available'.
+2025-04-13 17:25:52,710 - WARNING - Product classes: product product-type-variable status-publish 
+2025-04-13 17:25:52,710 - WARNING - Has add to cart button: False
+2025-04-13 17:25:52,710 - INFO - Product: Matcha Soda, Availability: Available
+2025-04-13 17:25:52,782 - WARNING - Could not determine stock status for product: Sweetened Matcha – Excellent. Defaulting to 'Available'.
+2025-04-13 17:25:52,783 - WARNING - Product classes: product product-type-variable status-publish 
+2025-04-13 17:25:52,783 - WARNING - Has add to cart button: False
+2025-04-13 17:25:52,783 - INFO - Product: Sweetened Matcha – Excellent, Availability: Available
+2025-04-13 17:25:52,859 - WARNING - Could not determine stock status for product: Sweetened Matcha – Designed For Milk. Defaulting to 'Available'.
+2025-04-13 17:25:52,859 - WARNING - Product classes: product product-type-variable status-publish last
+2025-04-13 17:25:52,859 - WARNING - Has add to cart button: False
+2025-04-13 17:25:52,860 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Available
+2025-04-13 17:25:52,922 - WARNING - Could not determine stock status for product: Matcha Mix. Defaulting to 'Available'.
+2025-04-13 17:25:52,922 - WARNING - Product classes: product product-type-variable status-publish first
+2025-04-13 17:25:52,922 - WARNING - Has add to cart button: False
+2025-04-13 17:25:52,923 - INFO - Product: Matcha Mix, Availability: Available
+2025-04-13 17:25:52,923 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Available | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 17:25:52,932 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T15-25-52-932Z.png
+2025-04-13 17:25:53,902 - INFO - Discord notification sent successfully.
+2025-04-13 17:30:33,403 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 17:30:43,451 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T15-30-43-450Z.png
+2025-04-13 17:30:43,774 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T15-30-43-773Z.html
+2025-04-13 17:30:43,852 - WARNING - Could not determine stock status for product: Hojicha Mix. Classes: ['product', 'product-type-variable', 'status-publish', 'first']
+2025-04-13 17:30:43,852 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 17:30:43,897 - WARNING - Could not determine stock status for product: Matcha Soda. Classes: ['product', 'product-type-variable', 'status-publish']
+2025-04-13 17:30:43,897 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 17:30:43,939 - WARNING - Could not determine stock status for product: Sweetened Matcha – Excellent. Classes: ['product', 'product-type-variable', 'status-publish']
+2025-04-13 17:30:43,940 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 17:30:43,982 - WARNING - Could not determine stock status for product: Sweetened Matcha – Designed For Milk. Classes: ['product', 'product-type-variable', 'status-publish', 'last']
+2025-04-13 17:30:43,982 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 17:30:44,032 - WARNING - Could not determine stock status for product: Matcha Mix. Classes: ['product', 'product-type-variable', 'status-publish', 'first']
+2025-04-13 17:30:44,032 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 17:30:44,032 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 17:30:44,042 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T15-30-44-042Z.png
+2025-04-13 17:30:56,066 - INFO - Discord notification sent successfully.
+2025-04-13 18:14:57,096 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 18:15:14,784 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-15-14-783Z.png
+2025-04-13 18:15:15,102 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-15-15-102Z.html
+2025-04-13 18:15:15,178 - ERROR - Error checking catalog: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:2:32)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 169, in main
+    table = extract_catalog_data(page, debug_helper)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 128, in extract_catalog_data
+    availability = page.evaluate(
+                   ^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8532, in evaluate
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:2:32)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-04-13 18:15:27,588 - INFO - Discord notification sent successfully.
+2025-04-13 18:17:50,046 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 18:18:05,039 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-18-05-038Z.png
+2025-04-13 18:18:05,359 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-18-05-359Z.html
+2025-04-13 18:18:05,448 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 18:18:05,504 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 18:18:05,562 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 18:18:05,617 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 18:18:05,669 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 18:18:05,669 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 18:18:05,684 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-18-05-683Z.png
+2025-04-13 18:18:18,368 - INFO - Discord notification sent successfully.
+2025-04-13 18:20:59,444 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 18:21:14,423 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-21-14-422Z.png
+2025-04-13 18:21:14,771 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-21-14-770Z.html
+2025-04-13 18:21:14,846 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 18:21:14,887 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 18:21:14,925 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 18:21:14,970 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 18:21:15,013 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 18:21:15,013 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 18:21:15,028 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-21-15-027Z.png
+2025-04-13 18:21:27,085 - INFO - Discord notification sent successfully.
+2025-04-13 18:26:07,519 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 18:26:22,546 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-26-22-545Z.png
+2025-04-13 18:26:22,907 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-26-22-906Z.html
+2025-04-13 18:26:23,011 - INFO - Product: Hojicha Mix, Availability: Unknown
+2025-04-13 18:26:23,059 - INFO - Product: Matcha Soda, Availability: Unknown
+2025-04-13 18:26:23,115 - INFO - Product: Sweetened Matcha – Excellent, Availability: Unknown
+2025-04-13 18:26:23,168 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Unknown
+2025-04-13 18:26:23,217 - INFO - Product: Matcha Mix, Availability: Unknown
+2025-04-13 18:26:23,217 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Hojicha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 18:26:23,231 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-26-23-229Z.png
+2025-04-13 18:26:35,243 - INFO - Discord notification sent successfully.
+2025-04-13 18:29:12,676 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 18:29:12,876 - INFO - Navigating to login page: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 18:29:27,589 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 18:29:30,614 - INFO - Found products with selector: ul.products
+2025-04-13 18:29:30,622 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-29-30-621Z.png
+2025-04-13 18:29:30,854 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-29-30-853Z.html
+2025-04-13 18:29:32,886 - INFO - Found 5 products
+2025-04-13 18:29:32,893 - INFO - Saving JSON: debug_screenshots\sample_product_structure_2025-04-13T18-29-32-893128.json
+2025-04-13 18:29:37,823 - INFO - Stock detection for 'Hojicha Mix': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:29:37,823 - INFO - Product: Hojicha Mix, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:29:41,331 - INFO - Stock detection for 'Matcha Soda': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:29:41,331 - INFO - Product: Matcha Soda, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:29:45,060 - INFO - Stock detection for 'Sweetened Matcha – Excellent': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:29:45,060 - INFO - Product: Sweetened Matcha – Excellent, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:29:48,144 - INFO - Stock detection for 'Sweetened Matcha – Designed For Milk': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:29:48,144 - INFO - Product: Sweetened Matcha – Designed For Milk, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:29:51,131 - INFO - Stock detection for 'Matcha Mix': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:29:51,131 - INFO - Product: Matcha Mix, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:29:51,132 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Price | Link |
+| --- | --- | --- | --- |
+| Hojicha Mix | Sold Out | €3.71 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g28200c6 |
+| Matcha Soda | Sold Out | €4.94〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d9d000cc |
+| Sweetened Matcha – Excellent | Sold Out | €2.47〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1186000cc |
+| Sweetened Matcha – Designed For Milk | Sold Out | €2.47〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c55000cc |
+| Matcha Mix | Sold Out | €5.25〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1g9d000cc |
+
+Found 5 products using selector: ul.products li.product
+2025-04-13 18:29:51,143 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-29-51-142Z.png
+2025-04-13 18:30:02,956 - INFO - Discord notification sent successfully.
+2025-04-13 18:32:25,166 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 18:32:25,507 - INFO - Navigating to login page: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 18:32:40,144 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 18:32:43,119 - INFO - Found products with selector: ul.products
+2025-04-13 18:32:43,132 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-32-43-132Z.png
+2025-04-13 18:32:43,570 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-32-43-569Z.html
+2025-04-13 18:32:45,627 - INFO - Found 12 products
+2025-04-13 18:32:45,636 - INFO - Saving JSON: debug_screenshots\sample_product_structure_2025-04-13T18-32-45-635754.json
+2025-04-13 18:32:48,814 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:48,814 - INFO - Stock detection for 'Chitose no Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:48,814 - INFO - Product: Chitose no Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:32:51,128 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:51,128 - INFO - Stock detection for 'Hisa Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:51,128 - INFO - Product: Hisa Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:32:52,906 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:52,906 - INFO - Stock detection for 'Tama Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:52,906 - INFO - Product: Tama Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:32:54,679 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:54,679 - INFO - Stock detection for 'Joshu': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:54,679 - INFO - Product: Joshu, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:32:56,789 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:56,789 - INFO - Stock detection for 'Suiteki': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:56,789 - INFO - Product: Suiteki, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:32:58,480 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:32:58,480 - INFO - Stock detection for 'Takamado': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:32:58,480 - INFO - Product: Takamado, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:00,197 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:00,197 - INFO - Stock detection for 'Rakuyo': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:00,197 - INFO - Product: Rakuyo, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:02,287 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:02,287 - INFO - Stock detection for 'Mizudashi Gyokuro Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:02,287 - INFO - Product: Mizudashi Gyokuro Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:03,989 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:03,989 - INFO - Stock detection for 'Hojicha Kiku Kaori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:03,989 - INFO - Product: Hojicha Kiku Kaori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:05,468 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:05,468 - INFO - Stock detection for 'Mild Sencha Hatsu Midori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:05,468 - INFO - Product: Mild Sencha Hatsu Midori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:06,933 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:06,933 - INFO - Stock detection for 'Hojicha Ogura Kaori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:06,933 - INFO - Product: Hojicha Ogura Kaori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:08,470 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:33:08,470 - INFO - Stock detection for 'Genmaicha Saga no Yuki Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:33:08,470 - INFO - Product: Genmaicha Saga no Yuki Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:33:08,471 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Price | Link |
+| --- | --- | --- | --- |
+| Chitose no Homare | Sold Out | €54.99〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1168040c6 |
+| Hisa Homare | Sold Out | ¥5,420〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1117040c6 |
+| Tama Homare | Sold Out | ¥2,780〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1127040c6 |
+| Joshu | Sold Out | ¥2,300〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1137040c6 |
+| Suiteki | Sold Out | ¥1,820〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1147040c6 |
+| Takamado | Sold Out | ¥1,100〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1118100c6 |
+| Rakuyo | Sold Out | ¥950〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1128100c6 |
+| Mizudashi Gyokuro Teabags for Multiple Servings | Sold Out | ¥1,400 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d49000b3 |
+| Hojicha Kiku Kaori Teabags for Multiple Servings | Sold Out | ¥450 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c44000b3 |
+| Mild Sencha Hatsu Midori Teabags for Multiple Servings | Sold Out | ¥1,000 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d89000b3 |
+| Hojicha Ogura Kaori Teabags for Multiple Servings | Sold Out | ¥400 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c63000b3 |
+| Genmaicha Saga no Yuki Teabags for Multiple Servings | Sold Out | ¥850 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c53000b3 |
+
+Found 12 products using selector: ul.products li.product
+2025-04-13 18:33:08,481 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-33-08-481Z.png
+2025-04-13 18:33:20,670 - INFO - Discord notification sent successfully.
+2025-04-13 18:48:27,234 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 18:48:51,974 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-48-51-973Z.png
+2025-04-13 18:48:52,306 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-48-52-306Z.html
+2025-04-13 18:48:52,373 - INFO - Product: Chitose no Homare, Availability: Unknown
+2025-04-13 18:48:52,402 - INFO - Product: Hisa Homare, Availability: Unknown
+2025-04-13 18:48:52,431 - INFO - Product: Tama Homare, Availability: Unknown
+2025-04-13 18:48:52,458 - INFO - Product: Joshu, Availability: Unknown
+2025-04-13 18:48:52,485 - INFO - Product: Suiteki, Availability: Unknown
+2025-04-13 18:48:52,512 - INFO - Product: Shiun, Availability: Unknown
+2025-04-13 18:48:52,545 - INFO - Product: Tensho, Availability: Unknown
+2025-04-13 18:48:52,577 - INFO - Product: Gyokuro Shiun Teabags for Multiple Servings, Availability: Unknown
+2025-04-13 18:48:52,608 - INFO - Product: Takamado, Availability: Unknown
+2025-04-13 18:48:52,643 - INFO - Product: Rakuyo, Availability: Unknown
+2025-04-13 18:48:52,674 - INFO - Product: Kabusecha Takamado Teabags for Multiple Servings, Availability: Unknown
+2025-04-13 18:48:52,704 - INFO - Product: Mizudashi Gyokuro Teabags for Multiple Servings, Availability: Unknown
+2025-04-13 18:48:52,704 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Link |
+| --- | --- | --- |
+| Chitose no Homare | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1168040c6 |
+| Hisa Homare | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1117040c6 |
+| Tama Homare | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1127040c6 |
+| Joshu | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1137040c6 |
+| Suiteki | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1147040c6 |
+| Shiun | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1157040c1 |
+| Tensho | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1167040c1-1167040c6 |
+| Gyokuro Shiun Teabags for Multiple Servings | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d19000b3 |
+| Takamado | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1118100c6 |
+| Rakuyo | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1128100c6 |
+| Kabusecha Takamado Teabags for Multiple Servings | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c33000b3 |
+| Mizudashi Gyokuro Teabags for Multiple Servings | Unknown | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d49000b3 |
+
+Found 12 products using selector: ul.products li.product
+2025-04-13 18:48:52,712 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-48-52-711Z.png
+2025-04-13 18:49:05,188 - INFO - Discord notification sent successfully.
+2025-04-13 18:55:43,424 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 18:55:43,662 - INFO - Navigating to login page: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 18:55:58,095 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 18:56:01,095 - INFO - Found products with selector: ul.products
+2025-04-13 18:56:01,104 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-56-01-103Z.png
+2025-04-13 18:56:01,434 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-56-01-434Z.html
+2025-04-13 18:56:03,480 - INFO - Found 12 products
+2025-04-13 18:56:03,486 - INFO - Saving JSON: debug_screenshots\sample_product_structure_2025-04-13T18-56-03-486416.json
+2025-04-13 18:56:03,543 - ERROR - Error checking catalog: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:2:39)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 579, in main
+    table = extract_catalog_data(page, debug_helper)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 448, in extract_catalog_data
+    stock_result = StockDetector.detect_stock_status(page, prod, link, debug_helper)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 140, in detect_stock_status
+    dom_structure = page.evaluate("""(element) => {
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8532, in evaluate
+    self._sync(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'classList')
+    at eval (eval at evaluate (:234:30), <anonymous>:2:39)
+    at UtilityScript.evaluate (<anonymous>:241:19)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-04-13 18:56:03,550 - INFO - Taking screenshot: debug_screenshots\exception_error_2025-04-13T16-56-03-549Z.png
+2025-04-13 18:56:18,337 - INFO - Discord notification sent successfully.
+2025-04-13 18:58:51,101 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 18:58:51,366 - INFO - Navigating to login page: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 18:59:07,046 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 18:59:11,366 - INFO - Found products with selector: ul.products
+2025-04-13 18:59:11,380 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T16-59-11-378Z.png
+2025-04-13 18:59:11,834 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T16-59-11-832Z.html
+2025-04-13 18:59:13,892 - INFO - Found 12 products
+2025-04-13 18:59:13,903 - INFO - Saving JSON: debug_screenshots\sample_product_structure_2025-04-13T18-59-13-903529.json
+2025-04-13 18:59:14,003 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-14-003402.json
+2025-04-13 18:59:14,004 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 18:59:18,104 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:18,104 - INFO - Stock detection for 'Chitose no Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:18,105 - INFO - Product: Chitose no Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:18,205 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-18-205818.json
+2025-04-13 18:59:18,206 - INFO - DOM Token List: {
+  "length": 6,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "swiper-slide",
+    "swiper-slide-visible",
+    "swiper-slide-next"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish swiper-slide swiper-slide-visible swiper-slide-next"
+}
+2025-04-13 18:59:20,310 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:20,310 - INFO - Stock detection for 'Hisa Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:20,310 - INFO - Product: Hisa Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:20,387 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-20-387198.json
+2025-04-13 18:59:20,388 - INFO - DOM Token List: {
+  "length": 6,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last",
+    "swiper-slide",
+    "swiper-slide-visible"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last swiper-slide swiper-slide-visible"
+}
+2025-04-13 18:59:22,108 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:22,109 - INFO - Stock detection for 'Tama Homare': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:22,109 - INFO - Product: Tama Homare, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:22,185 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-22-185597.json
+2025-04-13 18:59:22,188 - INFO - DOM Token List: {
+  "length": 6,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first",
+    "swiper-slide",
+    "swiper-slide-visible"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first swiper-slide swiper-slide-visible"
+}
+2025-04-13 18:59:23,885 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:23,885 - INFO - Stock detection for 'Joshu': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:23,885 - INFO - Product: Joshu, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:23,963 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-23-961858.json
+2025-04-13 18:59:23,964 - INFO - DOM Token List: {
+  "length": 5,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "swiper-slide",
+    "swiper-slide-visible"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish swiper-slide swiper-slide-visible"
+}
+2025-04-13 18:59:25,682 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:25,682 - INFO - Stock detection for 'Suiteki': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:25,682 - INFO - Product: Suiteki, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:25,759 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-25-759316.json
+2025-04-13 18:59:25,760 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish swiper-slide"
+}
+2025-04-13 18:59:27,421 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:27,421 - INFO - Stock detection for 'Takamado': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:27,422 - INFO - Product: Takamado, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:27,503 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-27-503035.json
+2025-04-13 18:59:27,504 - INFO - DOM Token List: {
+  "length": 5,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last swiper-slide"
+}
+2025-04-13 18:59:29,175 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:29,175 - INFO - Stock detection for 'Rakuyo': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:29,175 - INFO - Product: Rakuyo, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:29,261 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-29-261843.json
+2025-04-13 18:59:29,263 - INFO - DOM Token List: {
+  "length": 5,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first swiper-slide"
+}
+2025-04-13 18:59:31,317 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:31,317 - INFO - Stock detection for 'Mizudashi Gyokuro Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:31,317 - INFO - Product: Mizudashi Gyokuro Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:31,414 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-31-414002.json
+2025-04-13 18:59:31,415 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish swiper-slide"
+}
+2025-04-13 18:59:33,189 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:33,189 - INFO - Stock detection for 'Hojicha Kiku Kaori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:33,189 - INFO - Product: Hojicha Kiku Kaori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:33,265 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-33-265494.json
+2025-04-13 18:59:33,266 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish swiper-slide"
+}
+2025-04-13 18:59:34,805 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:34,805 - INFO - Stock detection for 'Mild Sencha Hatsu Midori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:34,805 - INFO - Product: Mild Sencha Hatsu Midori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:34,882 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-34-882823.json
+2025-04-13 18:59:34,883 - INFO - DOM Token List: {
+  "length": 5,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last swiper-slide"
+}
+2025-04-13 18:59:36,278 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:36,278 - INFO - Stock detection for 'Hojicha Ogura Kaori Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:36,278 - INFO - Product: Hojicha Ogura Kaori Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:36,344 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T18-59-36-344613.json
+2025-04-13 18:59:36,345 - INFO - DOM Token List: {
+  "length": 5,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first",
+    "swiper-slide"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first swiper-slide"
+}
+2025-04-13 18:59:37,786 - WARNING - Error checking product page schema: 'list' object has no attribute 'get'
+2025-04-13 18:59:37,786 - INFO - Stock detection for 'Genmaicha Saga no Yuki Teabags for Multiple Servings': {
+  "is_in_stock": false,
+  "methods_used": [
+    "missing_add_to_cart"
+  ],
+  "confidence": 0.6,
+  "details": {
+    "missing_add_to_cart": "No add to cart button found"
+  }
+}
+2025-04-13 18:59:37,786 - INFO - Product: Genmaicha Saga no Yuki Teabags for Multiple Servings, Availability: Sold Out, Confidence: 0.60, Methods: missing_add_to_cart
+2025-04-13 18:59:37,787 - INFO - Extracted Catalog Data:
+| Product Name | Availability | Price | Link |
+| --- | --- | --- | --- |
+| Chitose no Homare | Sold Out | €54.99〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1168040c6 |
+| Hisa Homare | Sold Out | ¥5,420〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1117040c6 |
+| Tama Homare | Sold Out | ¥2,780〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1127040c6 |
+| Joshu | Sold Out | ¥2,300〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1137040c6 |
+| Suiteki | Sold Out | ¥1,820〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1147040c6 |
+| Takamado | Sold Out | ¥1,100〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1118100c6 |
+| Rakuyo | Sold Out | ¥950〜 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1128100c6 |
+| Mizudashi Gyokuro Teabags for Multiple Servings | Sold Out | ¥1,400 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d49000b3 |
+| Hojicha Kiku Kaori Teabags for Multiple Servings | Sold Out | ¥450 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c44000b3 |
+| Mild Sencha Hatsu Midori Teabags for Multiple Servings | Sold Out | ¥1,000 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1d89000b3 |
+| Hojicha Ogura Kaori Teabags for Multiple Servings | Sold Out | ¥400 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c63000b3 |
+| Genmaicha Saga no Yuki Teabags for Multiple Servings | Sold Out | ¥850 | https://www.marukyu-koyamaen.co.jp/english/shop/products/1c53000b3 |
+
+Found 12 products using selector: ul.products li.product
+2025-04-13 18:59:37,800 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T16-59-37-799Z.png
+2025-04-13 18:59:38,316 - INFO - Taking screenshot: debug_screenshots\discord_notification_2025-04-13T16-59-38-315Z.png
+2025-04-13 18:59:51,267 - INFO - Discord notification sent successfully.
+2025-04-13 19:02:11,693 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:02:11,933 - INFO - Navigating to login page: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 19:02:27,407 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:02:30,667 - INFO - Found products with selector: ul.products
+2025-04-13 19:02:30,676 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-02-30-675Z.png
+2025-04-13 19:02:30,989 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-02-30-989Z.html
+2025-04-13 19:02:33,039 - INFO - Found 12 products
+2025-04-13 19:02:33,047 - INFO - Saving JSON: debug_screenshots\sample_product_structure_2025-04-13T19-02-33-047535.json
+2025-04-13 19:02:33,128 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-02-33-128952.json
+2025-04-13 19:02:33,129 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:02:33,129 - ERROR - Error checking catalog: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 579, in main
+    table = extract_catalog_data(page, debug_helper)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 448, in extract_catalog_data
+    stock_result = StockDetector.detect_stock_status(page, prod, link, debug_helper)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 168, in detect_stock_status
+    elif dom_structure["length"] == 4 and dom_structure["items"][4] == "outofstock":
+                                          ~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-13 19:02:33,135 - INFO - Taking screenshot: debug_screenshots\exception_error_2025-04-13T17-02-33-135Z.png
+2025-04-13 19:02:46,878 - INFO - Discord notification sent successfully.
+2025-04-13 19:14:59,098 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:14:59,335 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:15:24,920 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-15-24-918Z.png
+2025-04-13 19:15:25,271 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-15-25-270Z.html
+2025-04-13 19:15:25,292 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-15-25-292Z.png
+2025-04-13 19:15:26,629 - INFO - Discord notification sent successfully.
+2025-04-13 19:17:27,244 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:17:27,484 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:17:42,439 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-17-42-438Z.png
+2025-04-13 19:17:42,925 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-17-42-924Z.html
+2025-04-13 19:17:43,025 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-025189.json
+2025-04-13 19:17:43,026 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:17:43,077 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-077029.json
+2025-04-13 19:17:43,079 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,125 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-125219.json
+2025-04-13 19:17:43,126 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,175 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-175714.json
+2025-04-13 19:17:43,176 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:17:43,223 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-223451.json
+2025-04-13 19:17:43,224 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:17:43,272 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-272743.json
+2025-04-13 19:17:43,274 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,318 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-318951.json
+2025-04-13 19:17:43,320 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,364 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-364970.json
+2025-04-13 19:17:43,365 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:17:43,418 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-418711.json
+2025-04-13 19:17:43,418 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:17:43,466 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-466493.json
+2025-04-13 19:17:43,468 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,513 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-513871.json
+2025-04-13 19:17:43,515 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:17:43,561 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-17-43-561225.json
+2025-04-13 19:17:43,563 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:17:43,575 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-17-43-575Z.png
+2025-04-13 19:17:44,521 - INFO - Discord notification sent successfully.
+2025-04-13 19:19:37,602 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:19:37,838 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:19:53,453 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-19-53-453Z.png
+2025-04-13 19:19:53,798 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-19-53-798Z.html
+2025-04-13 19:19:53,887 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-53-887527.json
+2025-04-13 19:19:53,888 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:19:53,931 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-53-931797.json
+2025-04-13 19:19:53,932 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:53,977 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-53-977145.json
+2025-04-13 19:19:53,978 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:54,024 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-024531.json
+2025-04-13 19:19:54,025 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:19:54,084 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-084088.json
+2025-04-13 19:19:54,085 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:19:54,130 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-130992.json
+2025-04-13 19:19:54,134 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:54,177 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-177849.json
+2025-04-13 19:19:54,178 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:54,220 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-220879.json
+2025-04-13 19:19:54,220 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:19:54,285 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-285097.json
+2025-04-13 19:19:54,286 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:19:54,339 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-339916.json
+2025-04-13 19:19:54,341 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:54,388 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-388659.json
+2025-04-13 19:19:54,389 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:19:54,436 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-19-54-436519.json
+2025-04-13 19:19:54,439 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:19:54,447 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-19-54-447Z.png
+2025-04-13 19:20:06,325 - INFO - Discord notification sent successfully.
+2025-04-13 19:25:21,287 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:25:21,534 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:25:36,999 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-25-36-997Z.png
+2025-04-13 19:25:37,478 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-25-37-477Z.html
+2025-04-13 19:25:37,591 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-591234.json
+2025-04-13 19:25:37,592 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:25:37,661 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-661135.json
+2025-04-13 19:25:37,664 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:37,727 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-727137.json
+2025-04-13 19:25:37,727 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:37,789 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-789894.json
+2025-04-13 19:25:37,791 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:25:37,855 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-855584.json
+2025-04-13 19:25:37,856 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:25:37,913 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-913972.json
+2025-04-13 19:25:37,914 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:37,979 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-37-979472.json
+2025-04-13 19:25:37,980 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:38,043 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-38-043680.json
+2025-04-13 19:25:38,045 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:25:38,107 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-38-107365.json
+2025-04-13 19:25:38,109 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:25:38,171 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-38-171270.json
+2025-04-13 19:25:38,173 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:38,236 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-38-236786.json
+2025-04-13 19:25:38,237 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:25:38,298 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-25-38-298969.json
+2025-04-13 19:25:38,300 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:25:38,314 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-25-38-314Z.png
+2025-04-13 19:25:50,116 - INFO - Discord notification sent successfully.
+2025-04-13 19:29:27,299 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:29:27,546 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:29:42,565 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-29-42-565Z.png
+2025-04-13 19:29:42,919 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-29-42-919Z.html
+2025-04-13 19:29:42,970 - ERROR - Error checking catalog: name 'link' is not defined
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 231, in main
+    stock_result = StockDetector.detect_stock_status(page, prod, link, debug_helper)
+                                                                 ^^^^
+NameError: name 'link' is not defined
+2025-04-13 19:29:42,974 - INFO - Taking screenshot: debug_screenshots\exception_error_2025-04-13T17-29-42-974Z.png
+2025-04-13 19:29:59,591 - INFO - Discord notification sent successfully.
+2025-04-13 19:32:23,493 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:32:23,740 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/green-tea/gyokuro?currency=EUR
+2025-04-13 19:32:38,993 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-32-38-987Z.png
+2025-04-13 19:32:39,620 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-32-39-619Z.html
+2025-04-13 19:32:39,736 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-39-736581.json
+2025-04-13 19:32:39,739 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:32:39,818 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-39-818672.json
+2025-04-13 19:32:39,819 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:39,911 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-39-911739.json
+2025-04-13 19:32:39,914 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:39,988 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-39-988259.json
+2025-04-13 19:32:39,989 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:32:40,064 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-063287.json
+2025-04-13 19:32:40,066 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:32:40,142 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-141065.json
+2025-04-13 19:32:40,144 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:40,212 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-212893.json
+2025-04-13 19:32:40,215 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:40,276 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-276430.json
+2025-04-13 19:32:40,277 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:32:40,354 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-354280.json
+2025-04-13 19:32:40,356 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:32:40,423 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-423409.json
+2025-04-13 19:32:40,425 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:40,488 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-488825.json
+2025-04-13 19:32:40,492 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:32:40,561 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-32-40-561964.json
+2025-04-13 19:32:40,564 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:32:40,578 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-32-40-577Z.png
+2025-04-13 19:32:41,827 - INFO - Discord notification sent successfully.
+2025-04-13 19:33:07,282 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:33:07,520 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/greentea?currency=EUR
+2025-04-13 19:33:22,930 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-33-22-929Z.png
+2025-04-13 19:33:23,323 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-33-23-322Z.html
+2025-04-13 19:33:23,432 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-33-23-432959.json
+2025-04-13 19:33:23,435 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:33:23,501 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-33-23-501166.json
+2025-04-13 19:33:23,503 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:33:23,568 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-33-23-568390.json
+2025-04-13 19:33:23,569 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:33:23,632 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-33-23-631812.json
+2025-04-13 19:33:23,635 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:33:23,696 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-33-23-696838.json
+2025-04-13 19:33:23,698 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:33:23,711 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-33-23-711Z.png
+2025-04-13 19:33:36,209 - INFO - Discord notification sent successfully.
+2025-04-13 19:33:59,458 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:33:59,679 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 19:34:14,836 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-34-14-835Z.png
+2025-04-13 19:34:15,363 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-34-15-362Z.html
+2025-04-13 19:34:15,488 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-488872.json
+2025-04-13 19:34:15,490 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:34:15,559 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-559631.json
+2025-04-13 19:34:15,563 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:15,633 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-633375.json
+2025-04-13 19:34:15,634 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:15,703 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-703778.json
+2025-04-13 19:34:15,707 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:34:15,768 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-768739.json
+2025-04-13 19:34:15,769 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:34:15,831 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-831345.json
+2025-04-13 19:34:15,834 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:15,904 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-904201.json
+2025-04-13 19:34:15,905 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:15,977 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-15-977757.json
+2025-04-13 19:34:15,979 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish last"
+}
+2025-04-13 19:34:16,048 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-16-048794.json
+2025-04-13 19:34:16,050 - INFO - DOM Token List: {
+  "length": 4,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "first"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish first"
+}
+2025-04-13 19:34:16,111 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-16-111798.json
+2025-04-13 19:34:16,113 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:16,181 - INFO - Saving JSON: debug_screenshots\dom_token_list_2025-04-13T19-34-16-181788.json
+2025-04-13 19:34:16,182 - INFO - DOM Token List: {
+  "length": 3,
+  "items": [
+    "product",
+    "product-type-variable",
+    "status-publish"
+  ],
+  "hasInStock": false,
+  "hasOutOfStock": false,
+  "fullClassString": "product product-type-variable status-publish "
+}
+2025-04-13 19:34:16,196 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-34-16-196Z.png
+2025-04-13 19:34:28,219 - INFO - Discord notification sent successfully.
+2025-04-13 19:42:24,944 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:42:25,277 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 19:42:49,981 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-42-49-980Z.png
+2025-04-13 19:42:50,406 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-42-50-405Z.html
+2025-04-13 19:42:50,977 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-42-50-976Z.png
+2025-04-13 19:43:00,687 - INFO - Discord notification sent successfully.
+2025-04-13 19:43:19,012 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:43:19,312 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 19:43:34,798 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-43-34-797Z.png
+2025-04-13 19:43:35,219 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-43-35-219Z.html
+2025-04-13 19:43:35,759 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-43-35-759Z.png
+2025-04-13 19:43:48,319 - INFO - Discord notification sent successfully.
+2025-04-13 19:50:53,755 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:50:54,089 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 19:51:08,991 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-51-08-989Z.png
+2025-04-13 19:51:09,427 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-51-09-426Z.html
+2025-04-13 19:51:09,520 - ERROR - Error checking catalog: type object 'StockDetector' has no attribute 'detect_stock_status_from_class'
+Traceback (most recent call last):
+  File "C:\Users\nicol\PycharmProjects\NotifyBot\matcha_bot.py", line 296, in main
+    stock_result = StockDetector.detect_stock_status_from_class(class_str)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'StockDetector' has no attribute 'detect_stock_status_from_class'
+2025-04-13 19:51:09,526 - INFO - Taking screenshot: debug_screenshots\exception_error_2025-04-13T17-51-09-525Z.png
+2025-04-13 19:51:22,979 - INFO - Discord notification sent successfully.
+2025-04-13 19:53:50,239 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 19:53:50,560 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 19:54:06,345 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T17-54-06-343Z.png
+2025-04-13 19:54:06,765 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T17-54-06-764Z.html
+2025-04-13 19:54:06,886 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-06-886220.json
+2025-04-13 19:54:06,962 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-06-962721.json
+2025-04-13 19:54:07,033 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-033836.json
+2025-04-13 19:54:07,097 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-097750.json
+2025-04-13 19:54:07,161 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-161952.json
+2025-04-13 19:54:07,231 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-231148.json
+2025-04-13 19:54:07,300 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-300249.json
+2025-04-13 19:54:07,368 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-368265.json
+2025-04-13 19:54:07,443 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-443763.json
+2025-04-13 19:54:07,506 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-506713.json
+2025-04-13 19:54:07,582 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T19-54-07-582998.json
+2025-04-13 19:54:07,596 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T17-54-07-595Z.png
+2025-04-13 19:54:19,622 - INFO - Discord notification sent successfully.
+2025-04-13 20:26:05,784 - INFO - Loading authentication state from auth_storage.json
+2025-04-13 20:26:06,136 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-13 20:26:30,960 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-13T18-26-30-959Z.png
+2025-04-13 20:26:31,432 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-13T18-26-31-431Z.html
+2025-04-13 20:26:31,542 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-542374.json
+2025-04-13 20:26:31,616 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-616528.json
+2025-04-13 20:26:31,696 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-696147.json
+2025-04-13 20:26:31,767 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-767061.json
+2025-04-13 20:26:31,848 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-848928.json
+2025-04-13 20:26:31,916 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-916177.json
+2025-04-13 20:26:31,984 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-31-984584.json
+2025-04-13 20:26:32,045 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-32-045716.json
+2025-04-13 20:26:32,115 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-32-115858.json
+2025-04-13 20:26:32,198 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-32-198257.json
+2025-04-13 20:26:32,279 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-13T20-26-32-279977.json
+2025-04-13 20:26:32,295 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-13T18-26-32-294Z.png
+2025-04-13 20:26:44,297 - INFO - Discord notification sent successfully.
+2025-04-15 07:33:15,380 - INFO - Loading authentication state from auth_storage.json
+2025-04-15 07:33:16,038 - INFO - Navigating to catalog page: https://www.marukyu-koyamaen.co.jp/english/shop/products/catalog/matcha/principal?currency=EUR
+2025-04-15 07:33:33,551 - INFO - Taking screenshot: debug_screenshots\catalog_page_2025-04-15T05-33-33-548Z.png
+2025-04-15 07:33:34,030 - INFO - Saving HTML: debug_screenshots\catalog_page_2025-04-15T05-33-34-028Z.html
+2025-04-15 07:33:34,209 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-208442.json
+2025-04-15 07:33:34,285 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-285299.json
+2025-04-15 07:33:34,354 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-354568.json
+2025-04-15 07:33:34,439 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-438703.json
+2025-04-15 07:33:34,507 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-507583.json
+2025-04-15 07:33:34,576 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-576713.json
+2025-04-15 07:33:34,636 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-636442.json
+2025-04-15 07:33:34,705 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-705337.json
+2025-04-15 07:33:34,772 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-772310.json
+2025-04-15 07:33:34,837 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-836914.json
+2025-04-15 07:33:34,897 - INFO - Saving JSON: debug_screenshots\stock_detection_dom_info_2025-04-15T07-33-34-897204.json
+2025-04-15 07:33:34,922 - INFO - Taking screenshot: debug_screenshots\catalog_data_extracted_2025-04-15T05-33-34-921Z.png
+2025-04-15 07:33:36,180 - INFO - Discord notification sent successfully.

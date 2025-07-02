@@ -1,0 +1,17 @@
+{
+  "classList": [
+    "product",
+    "product-type-variable",
+    "status-publish",
+    "last"
+  ],
+  "classString": "product product-type-variable status-publish last",
+  "dataAttributes": {},
+  "addToCart": {
+    "exists": false,
+    "disabledAttr": null,
+    "hasDisabledClass": false,
+    "text": null
+  },
+  "stockText": ""
+}

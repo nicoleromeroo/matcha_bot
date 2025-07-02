@@ -1,0 +1,282 @@
+Index: matcha_bot.py
+===================================================================
+diff --git a/matcha_bot.py b/matcha_bot.py
+--- a/matcha_bot.py	(revision 3e7ee38faa027dc0acdbe0484b3dfdd3f07b67cd)
++++ b/matcha_bot.py	(date 1744568763803)
+@@ -1,0 +1,276 @@
++import logging
++import os
++import json
++from dataclasses import dataclass
++from pathlib import Path
++from typing import Optional, Dict, Any, List
++
++import requests
++from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
++from dotenv import load_dotenv
++
++# Load .env from the current directory (not .venv)
++load_dotenv(dotenv_path=Path(".env"))
++
++logging.basicConfig(
++    level=logging.INFO,
++    format="%(asctime)s - %(levelname)s - %(message)s",
++    handlers=[
++        logging.FileHandler("catalog_checker.log", encoding="utf-8"),
++        logging.StreamHandler()
++    ]
++)
++logger = logging.getLogger(__name__)
++
++
++@dataclass
++class Config:
++    url: str
++    login_url: str
++    username: str
++    password: str
++    storage_state_path: str
++    discord_webhook_url: str
++    screenshot_dir: str = "debug_screenshots"
++    headless: bool = True
++    timeout_ms: int = 30000
++    debug_mode: bool = True
++
++    @classmethod
++    def from_env(cls) -> "Config":
++        return cls(
++            url=os.getenv("PRODUCT_CATALOG_URL"),
++            login_url=os.getenv("LOGIN_URL"),
++            username=os.getenv("LOGIN_USERNAME"),
++            password=os.getenv("LOGIN_PASSWORD"),
++            storage_state_path=os.getenv("STORAGE_STATE_PATH", "auth_storage.json"),
++            discord_webhook_url=os.getenv("DISCORD_WEBHOOK_URL"),
++            screenshot_dir=os.getenv("SCREENSHOT_DIR", "debug_screenshots"),
++            headless=os.getenv("HEADLESS", "true").lower() == "true",
++            timeout_ms=int(os.getenv("TIMEOUT_MS", "30000")),
++            debug_mode=os.getenv("DEBUG_MODE", "true").lower() == "true"
++        )
++
++
++class DiscordNotifier:
++    def __init__(self, webhook_url: str):
++        self.webhook_url = webhook_url
++
++    def send_notification(self, message: str, image_path: Optional[Path] = None) -> bool:
++        if not self.webhook_url:
++            logger.warning("Discord webhook URL not configured; skipping notification.")
++            return False
++        try:
++            payload = {"content": message}
++            files = {}
++            if image_path and image_path.exists():
++                files = {"file": (image_path.name, open(image_path, "rb"))}
++            response = requests.post(self.webhook_url, data=payload, files=files) if files else requests.post(
++                self.webhook_url, json=payload)
++            response.raise_for_status()
++            logger.info("Discord notification sent successfully.")
++            return True
++        except requests.RequestException as e:
++            logger.error(f"Discord notification failed: {e}")
++            return False
++
++
++class DebugHelper:
++    def __init__(self, config: Config):
++        self.config = config
++        self.screenshot_dir = Path(config.screenshot_dir)
++        self.screenshot_dir.mkdir(exist_ok=True)
++
++    def take_screenshot(self, page, name: str) -> Optional[Path]:
++        if not self.config.debug_mode:
++            return None
++        timestamp = page.evaluate("new Date().toISOString().replace(/[:.]/g, '-')")
++        filename = f"{name}_{timestamp}.png"
++        path = self.screenshot_dir / filename
++        logger.info(f"Taking screenshot: {path}")
++        page.screenshot(path=str(path), full_page=True)
++        return path
++
++    def save_html(self, page, name: str) -> Optional[Path]:
++        if not self.config.debug_mode:
++            return None
++        timestamp = page.evaluate("new Date().toISOString().replace(/[:.]/g, '-')")
++        filename = f"{name}_{timestamp}.html"
++        path = self.screenshot_dir / filename
++        logger.info(f"Saving HTML: {path}")
++        with open(path, "w", encoding="utf-8") as f:
++            f.write(page.content())
++        return path
++
++    def save_json(self, data: Any, name: str) -> Optional[Path]:
++        if not self.config.debug_mode:
++            return None
++        import datetime
++        timestamp = datetime.datetime.now().isoformat().replace(":", "-").replace(".", "-")
++        filename = f"{name}_{timestamp}.json"
++        path = self.screenshot_dir / filename
++        logger.info(f"Saving JSON: {path}")
++        with open(path, "w", encoding="utf-8") as f:
++            json.dump(data, f, indent=2, ensure_ascii=False)
++        return path
++
++
++class StockDetector:
++    @staticmethod
++    def detect_stock_status_advanced(prod, page, debug_helper) -> Dict[str, Any]:
++        result = {
++            "is_in_stock": True,
++            "methods_used": [],
++            "confidence": 0,
++            "details": {}
++        }
++
++        try:
++            info = prod.evaluate("""
++                (element) => {
++                    const classList = element.classList || [];
++                    const classString = element.className || "";
++
++                    const dataAttributes = {};
++                    for (const attr of element.attributes) {
++                        if (attr.name.startsWith('data-')) {
++                            dataAttributes[attr.name] = attr.value;
++                        }
++                    }
++
++                    const button = element.querySelector('button, a.button');
++                    const addToCart = {
++                        exists: !!button,
++                        disabledAttr: button ? button.disabled : undefined,
++                        hasDisabledClass: button ? button.classList.contains("disabled") : false,
++                        text: button ? button.innerText.toLowerCase() : null
++                    };
++
++                    const stockTextElement = element.querySelector('.stock, .availability');
++                    const stockText = stockTextElement ? stockTextElement.innerText.toLowerCase() : "";
++
++                    return {
++                        classList: Array.from(classList),
++                        classString: classString,
++                        dataAttributes,
++                        addToCart,
++                        stockText
++                    };
++                }
++            """, prod)
++
++            debug_helper.save_json(info, "stock_detection_dom_info")
++
++            cls_str = info["classString"].lower()
++            if "outofstock" in cls_str:
++                result.update({"is_in_stock": False, "confidence": 1.0})
++                result["methods_used"].append("class_outofstock")
++            elif "instock" in cls_str:
++                result.update({"is_in_stock": True, "confidence": 1.0})
++                result["methods_used"].append("class_instock")
++            elif "false" in info["dataAttributes"].get("data-in-stock", "").lower():
++                result.update({"is_in_stock": False, "confidence": 1.0})
++                result["methods_used"].append("data_attribute")
++            elif info["dataAttributes"].get("data-stock") == "0":
++                result.update({"is_in_stock": False, "confidence": 1.0})
++                result["methods_used"].append("data_stock_zero")
++            elif info["addToCart"]["disabledAttr"] or info["addToCart"]["hasDisabledClass"]:
++                result.update({"is_in_stock": False, "confidence": 0.95})
++                result["methods_used"].append("add_to_cart_disabled")
++            elif "out of stock" in info["stockText"] or "sold out" in info["stockText"]:
++                result.update({"is_in_stock": False, "confidence": 0.9})
++                result["methods_used"].append("stock_text_match")
++
++            if not result["methods_used"]:
++                result["confidence"] = 0.5
++                result["methods_used"].append("unknown_guess")
++
++        except Exception as e:
++            result.update({
++                "is_in_stock": True,
++                "confidence": 0.3,
++                "methods_used": ["fallback"],
++                "details": {"error": str(e)}
++            })
++
++        return result
++
++
++
++
++def main():
++    config = Config.from_env()
++    notifier = DiscordNotifier(config.discord_webhook_url)
++    debug_helper = DebugHelper(config)
++
++    with sync_playwright() as p:
++        try:
++            browser = p.chromium.launch(headless=config.headless)
++            context_options = {
++                "viewport": {"width": 1280, "height": 800},
++                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
++            }
++
++            if Path(config.storage_state_path).exists():
++                logger.info(f"Loading authentication state from {config.storage_state_path}")
++                context_options["storage_state"] = config.storage_state_path
++
++            context = browser.new_context(**context_options)
++            page = context.new_page()
++
++            logger.info(f"Navigating to catalog page: {config.url}")
++            page.goto(config.url, timeout=config.timeout_ms)
++            page.wait_for_load_state("networkidle")
++
++            debug_helper.take_screenshot(page, "catalog_page")
++            debug_helper.save_html(page, "catalog_page")
++
++            products = page.locator("#products-loop ul.products > li.product")
++            report_lines = ["| Product Name | Status | Price | Link |", "|--------------|--------|-------|------|"]
++
++            for i in range(products.count()):
++                prod = products.nth(i)
++
++                # Get link
++                link_elem = prod.locator("a.woocommerce-loop-product__link")  # same selector, confirmed
++                link = link_elem.get_attribute("href") if link_elem.count() > 0 else "#"
++
++                # Get product name from title or innerText
++                name = link_elem.get_attribute("title")
++                if not name:
++                    name = link_elem.inner_text().strip().split("\n")[0]
++
++                # Get price
++                price_elem = prod.locator("div.product-price.price")
++                price = price_elem.inner_text().strip() if price_elem.count() > 0 else "N/A"
++
++                # Detect stock status from class string
++                class_str = prod.get_attribute("class") or ""
++                stock_result = StockDetector.detect_stock_status_advanced(prod, page, debug_helper)
++                availability = "In Stock" if stock_result["is_in_stock"] else "Out of Stock"
++
++                report_lines.append(f"| {name} | {availability} | {price} | {link} |")
++
++            table = "\n".join(report_lines)
++
++            page.evaluate("window.scrollTo(0, 0);")
++            debug_helper.take_screenshot(page, "catalog_data_extracted")
++            notifier.send_notification("Catalog Stock Report:\n" + table)
++
++            if config.storage_state_path:
++                context.storage_state(path=config.storage_state_path)
++
++            browser.close()
++
++        except PlaywrightTimeoutError:
++            logger.error(f"Timeout loading page: {config.url}")
++            screenshot_path = debug_helper.take_screenshot(page, "timeout_error")
++            notifier.send_notification("Error checking catalog: Timeout loading page", screenshot_path)
++        except Exception as e:
++            logger.exception(f"Error checking catalog: {e}")
++            screenshot_path = debug_helper.take_screenshot(page, "exception_error")
++            notifier.send_notification(f"Error checking catalog: {e}", screenshot_path)
++
++
++if __name__ == "__main__":
++    main()

@@ -1,0 +1,772 @@
+2025-04-13 13:36:16,780 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:36:17,829 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:37:34,872 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:37:36,026 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:44:12,106 - ERROR - Login credentials not configured. Please set LOGIN_USERNAME and LOGIN_PASSWORD environment variables.
+2025-04-13 13:44:58,960 - ERROR - Login credentials not configured. Please set LOGIN_USERNAME and LOGIN_PASSWORD environment variables.
+2025-04-13 13:45:38,880 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:45:46,376 - INFO - Using stored authentication
+2025-04-13 13:45:46,678 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:49:35,198 - ERROR - Login credentials not configured. Please set LOGIN_USERNAME and LOGIN_PASSWORD environment variables.
+2025-04-13 13:49:53,469 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:49:54,040 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/login
+2025-04-13 13:49:54,590 - INFO - Auth storage file age: 0.63 hours (max: 24.00 hours)
+2025-04-13 13:49:54,590 - INFO - Using stored authentication
+2025-04-13 13:49:54,862 - INFO - Auth storage file age: 0.63 hours (max: 24.00 hours)
+2025-04-13 13:49:54,862 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:49:59,392 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T11-49-59-389Z.png
+2025-04-13 13:50:00,118 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T11-50-00-118Z.html
+2025-04-13 13:50:00,203 - INFO - Found product name: Strong Sencha Choyozan
+2025-04-13 13:50:00,265 - INFO - Found yen prices: 32 occurrences
+2025-04-13 13:50:00,273 - INFO - Taking debug screenshot: debug_screenshots\found_yen_prices_2025-04-13T11-50-00-273Z.png
+2025-04-13 13:50:00,970 - INFO - Found price with selector span.woocommerce-Price-amount: ¥880
+2025-04-13 13:50:00,977 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T11-50-00-976Z.png
+2025-04-13 13:59:48,664 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 13:59:49,264 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/login
+2025-04-13 13:59:49,747 - INFO - Auth storage file age: 0.80 hours (max: 24.00 hours)
+2025-04-13 13:59:49,747 - INFO - Using stored authentication
+2025-04-13 13:59:50,055 - INFO - Auth storage file age: 0.80 hours (max: 24.00 hours)
+2025-04-13 13:59:50,056 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:00:04,398 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-00-04-396Z.png
+2025-04-13 14:00:05,285 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-00-05-290Z.html
+2025-04-13 14:00:05,384 - INFO - Found product name: Strong Sencha Choyozan
+2025-04-13 14:00:05,453 - INFO - Found currency prices: 80 occurrences
+2025-04-13 14:00:05,458 - INFO - Taking debug screenshot: debug_screenshots\found_currency_prices_2025-04-13T12-00-05-459Z.png
+2025-04-13 14:00:07,063 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-00-07-070Z.png
+2025-04-13 14:02:14,770 - INFO - Starte Stock-Check für: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:02:15,472 - INFO - Sende Debug-Info an Discord: Starte Stock-Check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:02:16,200 - INFO - Auth-Dateialter: 0.84 Stunden (max: 24.00 Stunden)
+2025-04-13 14:02:16,200 - INFO - Verwende gespeicherte Authentifizierung
+2025-04-13 14:02:16,477 - INFO - Auth-Dateialter: 0.84 Stunden (max: 24.00 Stunden)
+2025-04-13 14:02:16,477 - INFO - Navigiere zur Produktseite: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:02:20,793 - INFO - Erstelle Debug-Screenshot: debug_screenshots\product_page_2025-04-13T12-02-20-791Z.png
+2025-04-13 14:02:21,574 - INFO - Speichere Debug-HTML: debug_screenshots\product_page_2025-04-13T12-02-21-573Z.html
+2025-04-13 14:02:21,650 - INFO - Produktname extrahiert: Strong Sencha Choyozan
+2025-04-13 14:02:21,695 - INFO - Gefundene Preise (mögliche Varianten): 64
+2025-04-13 14:02:21,701 - INFO - Erstelle Debug-Screenshot: debug_screenshots\found_prices_2025-04-13T12-02-21-700Z.png
+2025-04-13 14:02:22,355 - INFO - Extrahierte Preise: 
+2025-04-13 14:02:22,361 - INFO - Erstelle Debug-Screenshot: debug_screenshots\availability_check_2025-04-13T12-02-22-360Z.png
+2025-04-13 14:10:25,142 - INFO - Starte Stock-Check für: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:10:25,776 - INFO - Sende Debug-Info an Discord: Starte Stock-Check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:10:26,186 - INFO - Auth-Dateialter: 0.97 Stunden (max: 24.00 Stunden)
+2025-04-13 14:10:26,186 - INFO - Gespeicherte Authentifizierung wird verwendet
+2025-04-13 14:10:26,508 - INFO - Auth-Dateialter: 0.97 Stunden (max: 24.00 Stunden)
+2025-04-13 14:10:26,508 - INFO - Navigiere zur Produktseite: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:10:31,195 - INFO - Erstelle Debug-Screenshot: debug_screenshots\product_page_2025-04-13T12-10-31-187Z.png
+2025-04-13 14:10:31,940 - INFO - Speichere Debug-HTML: debug_screenshots\product_page_2025-04-13T12-10-31-940Z.html
+2025-04-13 14:10:32,054 - INFO - Produktname extrahiert: Strong Sencha Choyozan
+2025-04-13 14:10:32,095 - INFO - Gefundene Preisanzeige: 80 Elemente
+2025-04-13 14:10:32,103 - INFO - Erstelle Debug-Screenshot: debug_screenshots\found_price_elements_2025-04-13T12-10-32-102Z.png
+2025-04-13 14:11:05,368 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:05,730 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:06,088 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:06,479 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:06,829 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:07,175 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:07,534 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:07,890 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:08,272 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:08,641 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:08,985 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:09,349 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:09,711 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:10,061 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:10,423 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:10,779 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:11,122 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:11,480 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:11,838 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:12,209 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:12,556 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:12,913 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:13,255 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:13,616 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:13,976 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:14,317 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:14,703 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:15,072 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:15,622 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:15,971 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:16,350 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:16,701 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:17,060 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:17,419 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:17,783 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:18,149 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:18,494 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:18,851 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:19,196 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:19,560 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:19,921 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:20,304 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:20,676 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:21,103 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:21,468 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:21,828 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:22,410 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:22,870 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:23,613 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:23,999 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:24,383 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:24,755 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:25,103 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:25,487 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:25,835 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:26,183 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:26,536 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:26,885 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:27,227 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:27,622 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:27,984 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:28,470 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:28,816 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:29,246 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:11:29,247 - INFO - Extrahierte Preise: $11.07 (~€10.41), $12.46 (~€11.71), $15.57 (~€14.64), $24.71 (~€23.23), $3.46 (~€3.25), $4.15 (~€3.9), $6.09 (~€5.72), $6.92 (~€6.5), $7.61 (~€7.15), $8.86 (~€8.33), $9.69 (~€9.11), £11.99, £19.03, £2.67, £3.20, £4.69, £5.33, £5.86, £6.82, £7.46, £8.53, £9.59, ¥1000 (~€6.2), ¥1100 (~€6.82), ¥114.55 (~€0.71), ¥1280 (~€7.94), ¥1400 (~€8.68), ¥1600 (~€9.92), ¥1800 (~€11.16), ¥181.75 (~€1.13), ¥2250 (~€13.95), ¥25.45 (~€0.16), ¥30.55 (~€0.19), ¥3570 (~€22.13), ¥44.80 (~€0.28), ¥50.91 (~€0.32), ¥500 (~€3.1), ¥56.00 (~€0.35), ¥600 (~€3.72), ¥65.16 (~€0.4), ¥71.27 (~€0.44), ¥81.46 (~€0.51), ¥880 (~€5.46), ¥91.64 (~€0.57), €11.12 (~€11.12), €13.90 (~€13.9), €22.06 (~€22.06), €3.09 (~€3.09), €3.71 (~€3.71), €5.44 (~€5.44), €6.18 (~€6.18), €6.80 (~€6.8), €7.91 (~€7.91), €8.65 (~€8.65), €9.89 (~€9.89)
+2025-04-13 14:11:29,259 - INFO - Erstelle Debug-Screenshot: debug_screenshots\availability_check_2025-04-13T12-11-29-258Z.png
+2025-04-13 14:15:41,728 - INFO - Starte Stock-Check für: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:15:42,372 - INFO - Sende Debug-Info an Discord: Starte Stock-Check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:15:44,153 - INFO - Auth-Dateialter: 1.06 Stunden (max: 24.00 Stunden)
+2025-04-13 14:15:44,153 - INFO - Gespeicherte Authentifizierung wird verwendet
+2025-04-13 14:15:44,413 - INFO - Auth-Dateialter: 1.06 Stunden (max: 24.00 Stunden)
+2025-04-13 14:15:44,414 - INFO - Navigiere zur Produktseite: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:16:00,319 - INFO - Erstelle Debug-Screenshot: debug_screenshots\product_page_2025-04-13T12-16-00-318Z.png
+2025-04-13 14:16:00,897 - INFO - Speichere Debug-HTML: debug_screenshots\product_page_2025-04-13T12-16-00-897Z.html
+2025-04-13 14:16:00,980 - INFO - Produktname extrahiert: Strong Sencha Choyozan
+2025-04-13 14:16:01,012 - INFO - Gefundene Preisanzeige: 80 Elemente
+2025-04-13 14:16:01,019 - INFO - Erstelle Debug-Screenshot: debug_screenshots\found_price_elements_2025-04-13T12-16-01-018Z.png
+2025-04-13 14:16:01,980 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:02,330 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:02,682 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:03,065 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:03,429 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:03,806 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:04,152 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:04,511 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:04,888 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:05,241 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:05,606 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:05,964 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:06,324 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:06,668 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:07,031 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:07,384 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:07,733 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:08,076 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:08,432 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:08,825 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:09,232 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:09,580 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:09,924 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:10,292 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:10,656 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:11,005 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:11,351 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:11,734 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:12,083 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:12,490 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:12,847 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:13,214 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:13,563 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:13,911 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:14,263 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:14,616 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:14,964 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:15,333 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:15,686 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:16,046 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:16,397 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:16,755 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:17,110 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:17,464 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:17,812 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:18,166 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:18,533 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:18,984 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:19,388 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:19,737 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:20,087 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:20,452 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:20,806 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:21,158 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:21,495 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:21,881 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:22,242 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:22,590 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:22,951 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:23,313 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:23,688 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:24,063 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:24,420 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:24,784 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:16:24,784 - INFO - Extrahierte Preise:
+¥25.45 = €0.16
+¥30.55 = €0.19
+¥44.80 = €0.28
+¥50.91 = €0.32
+¥56.00 = €0.35
+¥65.16 = €0.4
+¥71.27 = €0.44
+¥81.46 = €0.51
+¥91.64 = €0.57
+¥114.55 = €0.71
+¥181.75 = €1.13
+€3.09 = €3.09
+¥500 = €3.1
+$3.46 = €3.25
+€3.71 = €3.71
+¥600 = €3.72
+$4.15 = €3.9
+€5.44 = €5.44
+¥880 = €5.46
+$6.09 = €5.72
+€6.18 = €6.18
+¥1000 = €6.2
+$6.92 = €6.5
+€6.80 = €6.8
+¥1100 = €6.82
+$7.61 = €7.15
+€7.91 = €7.91
+¥1280 = €7.94
+$8.86 = €8.33
+€8.65 = €8.65
+¥1400 = €8.68
+$9.69 = €9.11
+€9.89 = €9.89
+¥1600 = €9.92
+$11.07 = €10.41
+€11.12 = €11.12
+¥1800 = €11.16
+$12.46 = €11.71
+€13.90 = €13.9
+¥2250 = €13.95
+$15.57 = €14.64
+€22.06 = €22.06
+¥3570 = €22.13
+$24.71 = €23.23
+2025-04-13 14:16:24,793 - INFO - Erstelle Debug-Screenshot: debug_screenshots\availability_check_2025-04-13T12-16-24-793Z.png
+2025-04-13 14:17:18,722 - INFO - Starte Stock-Check für: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:17:19,311 - INFO - Sende Debug-Info an Discord: Starte Stock-Check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:17:20,044 - INFO - Auth-Dateialter: 1.09 Stunden (max: 24.00 Stunden)
+2025-04-13 14:17:20,044 - INFO - Gespeicherte Authentifizierung wird verwendet
+2025-04-13 14:17:20,377 - INFO - Auth-Dateialter: 1.09 Stunden (max: 24.00 Stunden)
+2025-04-13 14:17:20,378 - INFO - Navigiere zur Produktseite: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:17:42,504 - INFO - Erstelle Debug-Screenshot: debug_screenshots\product_page_2025-04-13T12-17-42-505Z.png
+2025-04-13 14:17:43,305 - INFO - Speichere Debug-HTML: debug_screenshots\product_page_2025-04-13T12-17-43-304Z.html
+2025-04-13 14:17:43,394 - INFO - Produktname extrahiert: Strong Sencha Choyozan
+2025-04-13 14:17:43,432 - INFO - Gefundene Preisanzeige: 80 Elemente
+2025-04-13 14:17:43,439 - INFO - Erstelle Debug-Screenshot: debug_screenshots\found_price_elements_2025-04-13T12-17-43-439Z.png
+2025-04-13 14:17:44,131 - INFO - Keine Preisanzeigen (.woocommerce-Price-amount) gefunden.
+2025-04-13 14:17:44,138 - INFO - Erstelle Debug-Screenshot: debug_screenshots\availability_check_2025-04-13T12-17-44-137Z.png
+2025-04-13 14:20:01,389 - INFO - Starte Stock-Check für: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:20:02,025 - INFO - Sende Debug-Info an Discord: Starte Stock-Check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:20:02,826 - INFO - Auth-Dateialter: 1.13 Stunden (max: 24.00 Stunden)
+2025-04-13 14:20:02,826 - INFO - Gespeicherte Authentifizierung wird verwendet
+2025-04-13 14:20:03,124 - INFO - Auth-Dateialter: 1.13 Stunden (max: 24.00 Stunden)
+2025-04-13 14:20:03,126 - INFO - Navigiere zur Produktseite: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:20:07,917 - INFO - Erstelle Debug-Screenshot: debug_screenshots\product_page_2025-04-13T12-20-07-916Z.png
+2025-04-13 14:20:08,684 - INFO - Speichere Debug-HTML: debug_screenshots\product_page_2025-04-13T12-20-08-687Z.html
+2025-04-13 14:20:08,788 - INFO - Produktname extrahiert: Strong Sencha Choyozan
+2025-04-13 14:20:08,829 - INFO - Gefundene Preisanzeige: 80 Elemente
+2025-04-13 14:20:08,837 - INFO - Erstelle Debug-Screenshot: debug_screenshots\found_price_elements_2025-04-13T12-20-08-838Z.png
+2025-04-13 14:20:20,974 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:21,342 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:21,701 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:22,108 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:22,503 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:22,852 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:23,204 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:23,558 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:23,911 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:24,257 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:24,617 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:25,002 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:25,347 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:25,712 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:26,077 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:26,433 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:26,785 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:27,139 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:27,491 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:27,851 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:28,210 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:28,571 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:28,939 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:29,309 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:29,659 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:30,045 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:30,399 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:30,757 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:31,105 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:31,479 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:31,833 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:32,206 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:32,558 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:32,904 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:33,257 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:33,613 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:33,954 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:34,311 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:34,665 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:35,015 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:35,377 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:35,754 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:36,120 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:36,505 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:36,850 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:37,206 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:37,565 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:37,935 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:38,293 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:38,666 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:39,016 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:39,377 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:39,734 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:40,094 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:40,461 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:40,812 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:41,173 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:41,570 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:41,930 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:42,302 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:42,648 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:42,990 - WARNING - Wechselkurs $ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:43,356 - WARNING - Wechselkurs € konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:43,707 - WARNING - Wechselkurs ¥ konnte nicht abgerufen werden: 'info'. Fallback wird verwendet.
+2025-04-13 14:20:43,707 - INFO - Extrahierte Preise:
+¥25.00 = €0.15
+¥30.00 = €0.19
+¥44.00 = €0.27
+¥50.00 = €0.31
+¥55.00 = €0.34
+¥64.00 = €0.4
+¥70.00 = €0.43
+¥80.00 = €0.5
+¥90.00 = €0.56
+¥112.50 = €0.7
+¥178.50 = €1.11
+¥500 = €3.1
+€3.10 = €3.1
+$3.39 = €3.19
+¥600 = €3.72
+€3.72 = €3.72
+$4.07 = €3.83
+€5.45 = €5.45
+¥880 = €5.46
+$5.97 = €5.61
+€6.19 = €6.19
+¥1000 = €6.2
+$6.78 = €6.37
+€6.81 = €6.81
+¥1100 = €6.82
+$7.46 = €7.01
+€7.93 = €7.93
+¥1280 = €7.94
+$8.68 = €8.16
+€8.67 = €8.67
+¥1400 = €8.68
+$9.50 = €8.93
+€9.91 = €9.91
+¥1600 = €9.92
+$10.85 = €10.2
+€11.15 = €11.15
+¥1800 = €11.16
+$12.21 = €11.48
+€13.94 = €13.94
+¥2250 = €13.95
+$15.26 = €14.34
+€22.11 = €22.11
+¥3570 = €22.13
+$24.22 = €22.77
+2025-04-13 14:20:43,715 - INFO - Erstelle Debug-Screenshot: debug_screenshots\availability_check_2025-04-13T12-20-43-714Z.png
+2025-04-13 14:32:37,159 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:32:37,850 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:32:38,224 - INFO - Auth file age: 1.34 hours (max: 24.00 hours)
+2025-04-13 14:32:38,224 - INFO - Using stored authentication
+2025-04-13 14:32:38,498 - INFO - Auth file age: 1.34 hours (max: 24.00 hours)
+2025-04-13 14:32:38,498 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:32:53,053 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-32-53-052Z.png
+2025-04-13 14:32:53,701 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-32-53-700Z.html
+2025-04-13 14:32:53,793 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:32:53,831 - INFO - Found price elements: 80 elements
+2025-04-13 14:32:53,837 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-32-53-836Z.png
+2025-04-13 14:32:54,505 - INFO - No containers (form.cart) found.
+2025-04-13 14:32:54,512 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-32-54-511Z.png
+2025-04-13 14:37:59,494 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:38:00,257 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:38:00,886 - INFO - Auth file age: 1.43 hours (max: 24.00 hours)
+2025-04-13 14:38:00,886 - INFO - Using stored authentication
+2025-04-13 14:38:01,166 - INFO - Auth file age: 1.43 hours (max: 24.00 hours)
+2025-04-13 14:38:01,167 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:38:05,554 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-38-05-552Z.png
+2025-04-13 14:38:06,296 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-38-06-295Z.html
+2025-04-13 14:38:06,386 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:38:06,421 - INFO - Found price elements: 80 elements
+2025-04-13 14:38:06,426 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-38-06-426Z.png
+2025-04-13 14:38:07,131 - INFO - No containers (form.cart) found.
+2025-04-13 14:38:07,139 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-38-07-138Z.png
+2025-04-13 14:42:20,795 - INFO - Discord notification sent successfully.
+2025-04-13 14:42:20,796 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:42:21,426 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:42:22,125 - INFO - Discord notification sent successfully.
+2025-04-13 14:42:22,313 - INFO - Auth file age: 1.51 hours (max: 24.00 hours)
+2025-04-13 14:42:22,313 - INFO - Using stored authentication
+2025-04-13 14:42:22,614 - INFO - Auth file age: 1.51 hours (max: 24.00 hours)
+2025-04-13 14:42:22,614 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:42:50,557 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-42-50-555Z.png
+2025-04-13 14:42:51,354 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-42-51-354Z.html
+2025-04-13 14:42:51,430 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:42:51,463 - INFO - Found price elements: 80 elements
+2025-04-13 14:42:51,469 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-42-51-468Z.png
+2025-04-13 14:42:52,104 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-42-52-104Z.png
+2025-04-13 14:42:52,728 - INFO - Product available! Strong Sencha Choyozan - Prices:
+Price not available
+2025-04-13 14:43:05,168 - INFO - Discord notification sent successfully.
+2025-04-13 14:46:21,957 - INFO - Discord notification sent successfully.
+2025-04-13 14:46:21,958 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:46:22,552 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:46:22,998 - INFO - Discord notification sent successfully.
+2025-04-13 14:46:23,174 - INFO - Auth file age: 1.57 hours (max: 24.00 hours)
+2025-04-13 14:46:23,174 - INFO - Using stored authentication
+2025-04-13 14:46:23,464 - INFO - Auth file age: 1.57 hours (max: 24.00 hours)
+2025-04-13 14:46:23,464 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:46:27,472 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-46-27-471Z.png
+2025-04-13 14:46:28,192 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-46-28-192Z.html
+2025-04-13 14:46:28,279 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:46:28,319 - INFO - Found price elements: 80 elements
+2025-04-13 14:46:28,326 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-46-28-326Z.png
+2025-04-13 14:46:29,011 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-46-29-011Z.png
+2025-04-13 14:46:29,666 - INFO - Product available! Strong Sencha Choyozan - Prices:
+Price not available
+2025-04-13 14:46:42,538 - INFO - Discord notification sent successfully.
+2025-04-13 14:51:40,932 - INFO - Discord notification sent successfully.
+2025-04-13 14:51:40,933 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:51:41,573 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:51:42,000 - INFO - Discord notification sent successfully.
+2025-04-13 14:51:42,146 - INFO - Auth file age: 1.66 hours (max: 24.00 hours)
+2025-04-13 14:51:42,146 - INFO - Using stored authentication
+2025-04-13 14:51:42,408 - INFO - Auth file age: 1.66 hours (max: 24.00 hours)
+2025-04-13 14:51:42,408 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:51:46,875 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-51-46-874Z.png
+2025-04-13 14:51:47,650 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-51-47-650Z.html
+2025-04-13 14:51:47,739 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:51:47,776 - INFO - Found price elements: 80 elements
+2025-04-13 14:51:47,782 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-51-47-785Z.png
+2025-04-13 14:51:48,499 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-51-48-498Z.png
+2025-04-13 14:51:49,178 - INFO - Product available! Strong Sencha Choyozan - Prices:
+Price not available
+2025-04-13 14:52:02,758 - INFO - Discord notification sent successfully.
+2025-04-13 14:54:21,368 - INFO - Discord notification sent successfully.
+2025-04-13 14:54:21,369 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:54:22,008 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 14:54:22,534 - INFO - Discord notification sent successfully.
+2025-04-13 14:54:22,818 - INFO - Auth file age: 1.71 hours (max: 24.00 hours)
+2025-04-13 14:54:22,818 - INFO - Using stored authentication
+2025-04-13 14:54:23,064 - INFO - Auth file age: 1.71 hours (max: 24.00 hours)
+2025-04-13 14:54:23,064 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 14:54:45,406 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T12-54-45-405Z.png
+2025-04-13 14:54:46,101 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T12-54-46-101Z.html
+2025-04-13 14:54:46,210 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 14:54:46,251 - INFO - Found price elements: 80 elements
+2025-04-13 14:54:46,258 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T12-54-46-258Z.png
+2025-04-13 14:54:46,969 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T12-54-46-968Z.png
+2025-04-13 14:54:47,696 - INFO - Product available! Strong Sencha Choyozan - Prices:
+Price not available
+2025-04-13 14:54:50,892 - INFO - Discord notification sent successfully.
+2025-04-13 15:16:42,303 - INFO - Discord notification sent successfully.
+2025-04-13 15:16:42,304 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1?currency=EUR
+2025-04-13 15:16:42,927 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:16:43,338 - INFO - Discord notification sent successfully.
+2025-04-13 15:16:43,484 - INFO - Auth file age: 2.08 hours (max: 24.00 hours)
+2025-04-13 15:16:43,484 - INFO - Using stored authentication
+2025-04-13 15:16:43,805 - INFO - Auth file age: 2.08 hours (max: 24.00 hours)
+2025-04-13 15:16:43,805 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1?currency=EUR
+2025-04-13 15:16:57,986 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-16-57-979Z.png
+2025-04-13 15:16:58,765 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-16-58-765Z.html
+2025-04-13 15:16:58,844 - INFO - Extracted product name: Strong Sencha Choyozan
+2025-04-13 15:16:58,880 - INFO - Found price elements: 80 elements
+2025-04-13 15:16:58,886 - INFO - Taking debug screenshot: debug_screenshots\found_price_elements_2025-04-13T13-16-58-886Z.png
+2025-04-13 15:16:59,552 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-16-59-553Z.png
+2025-04-13 15:17:00,182 - INFO - Product available! Strong Sencha Choyozan - Variant info:
+Price not available
+2025-04-13 15:17:12,892 - INFO - Discord notification sent successfully.
+2025-04-13 15:29:01,965 - INFO - Discord notification sent successfully.
+2025-04-13 15:29:01,966 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 15:29:02,692 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:29:03,064 - INFO - Discord notification sent successfully.
+2025-04-13 15:29:03,219 - INFO - Auth file age: 2.28 hours (max: 24.00 hours)
+2025-04-13 15:29:03,219 - INFO - Using stored auth state.
+2025-04-13 15:29:03,529 - INFO - Auth file age: 2.28 hours (max: 24.00 hours)
+2025-04-13 15:29:03,529 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 15:29:16,614 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-29-16-612Z.png
+2025-04-13 15:29:17,269 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-29-17-269Z.html
+2025-04-13 15:29:17,298 - INFO - Switching currency to EUR via .woocs_auto_switcher_select.
+2025-04-13 15:29:20,436 - INFO - Prices exist but no 'Add to cart' button => possibly login required or partial stock.
+2025-04-13 15:29:20,634 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-29-20-634Z.png
+2025-04-13 15:29:21,186 - INFO - Product is in stock: Strong Sencha Choyozan
+Variants:
+40g can: â‚¬5.44
+100g can: â‚¬11.12
+100g bag: â‚¬9.89
+2025-04-13 15:29:22,627 - INFO - Discord notification sent successfully.
+2025-04-13 15:32:40,290 - INFO - Discord notification sent successfully.
+2025-04-13 15:32:40,291 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 15:32:40,922 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:32:41,232 - INFO - Discord notification sent successfully.
+2025-04-13 15:32:41,359 - INFO - Auth file age: 2.34 hours (max: 24.00 hours)
+2025-04-13 15:32:41,360 - INFO - Using stored auth state.
+2025-04-13 15:32:41,626 - INFO - Auth file age: 2.34 hours (max: 24.00 hours)
+2025-04-13 15:32:41,626 - INFO - Navigating to https://www.marukyu-koyamaen.co.jp/english/shop/products/1234040c1
+2025-04-13 15:32:57,873 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-32-57-872Z.html
+2025-04-13 15:32:57,932 - INFO - Switching currency to EUR via .woocs_auto_switcher_select.
+2025-04-13 15:33:01,069 - INFO - Prices exist but no 'Add to cart' button => possibly login required or partial stock.
+2025-04-13 15:33:01,234 - INFO - Product is in stock: Strong Sencha Choyozan
+Variants:
+40g can: â‚¬5.44
+100g can: â‚¬11.12
+100g bag: â‚¬9.89
+2025-04-13 15:33:03,432 - INFO - Discord notification sent successfully.
+2025-04-13 15:40:03,135 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:40:03,136 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:40:03,136 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:40:03,845 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:40:05,440 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:40:05,587 - INFO - Auth file age: 2.47 hours (max: 24.00 hours)
+2025-04-13 15:40:05,587 - INFO - Using stored auth state.
+2025-04-13 15:40:05,868 - INFO - Auth file age: 2.47 hours (max: 24.00 hours)
+2025-04-13 15:40:05,868 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:40:13,557 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-04-13 15:40:55,875 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:40:55,876 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:40:55,876 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:40:56,515 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:40:56,809 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:40:56,936 - INFO - Auth file age: 2.48 hours (max: 24.00 hours)
+2025-04-13 15:40:56,936 - INFO - Using stored auth state.
+2025-04-13 15:40:57,208 - INFO - Auth file age: 2.48 hours (max: 24.00 hours)
+2025-04-13 15:40:57,208 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:41:44,108 - ERROR - Timeout loading page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:41:55,386 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:42:00,388 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:42:00,389 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:42:01,041 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:42:02,542 - ERROR - Discord notification failed: 400 Client Error: Bad Request for url: https://discord.com/api/webhooks/xxxx/xxxx
+2025-04-13 15:42:02,668 - INFO - Auth file age: 2.50 hours (max: 24.00 hours)
+2025-04-13 15:42:02,669 - INFO - Using stored auth state.
+2025-04-13 15:42:02,941 - INFO - Auth file age: 2.50 hours (max: 24.00 hours)
+2025-04-13 15:42:02,941 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:42:15,299 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-04-13 15:42:51,061 - INFO - Discord notification sent successfully.
+2025-04-13 15:42:51,062 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:42:51,062 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:42:51,720 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:42:53,594 - INFO - Discord notification sent successfully.
+2025-04-13 15:42:53,761 - INFO - Auth file age: 2.51 hours (max: 24.00 hours)
+2025-04-13 15:42:53,761 - INFO - Using stored auth state.
+2025-04-13 15:42:54,048 - INFO - Auth file age: 2.51 hours (max: 24.00 hours)
+2025-04-13 15:42:54,048 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1g36020c1?currency=EUR
+2025-04-13 15:42:58,730 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-42-58-729Z.png
+2025-04-13 15:42:59,412 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-42-59-413Z.html
+2025-04-13 15:42:59,527 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-42-59-530Z.png
+2025-04-13 15:43:00,146 - INFO - Product in stock: Kiwami Choan
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:43:03,187 - INFO - Discord notification sent successfully.
+2025-04-13 15:43:08,330 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:43:08,330 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:43:08,973 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:43:09,313 - INFO - Discord notification sent successfully.
+2025-04-13 15:43:09,451 - INFO - Auth file age: 2.52 hours (max: 24.00 hours)
+2025-04-13 15:43:09,452 - INFO - Using stored auth state.
+2025-04-13 15:43:09,732 - INFO - Auth file age: 2.52 hours (max: 24.00 hours)
+2025-04-13 15:43:09,732 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1141020c1?currency=EUR
+2025-04-13 15:43:25,287 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-43-25-287Z.png
+2025-04-13 15:43:26,159 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-43-26-162Z.html
+2025-04-13 15:43:26,318 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-43-26-319Z.png
+2025-04-13 15:43:27,087 - INFO - Product in stock: Unkaku
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:43:38,449 - INFO - Discord notification sent successfully.
+2025-04-13 15:43:43,552 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1?currency=EUR
+2025-04-13 15:43:43,553 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1?currency=EUR
+2025-04-13 15:43:44,337 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:43:55,766 - INFO - Discord notification sent successfully.
+2025-04-13 15:43:55,906 - INFO - Auth file age: 2.53 hours (max: 24.00 hours)
+2025-04-13 15:43:55,908 - INFO - Using stored auth state.
+2025-04-13 15:43:56,175 - INFO - Auth file age: 2.53 hours (max: 24.00 hours)
+2025-04-13 15:43:56,175 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1161020c1?currency=EUR
+2025-04-13 15:44:02,342 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-44-02-340Z.png
+2025-04-13 15:44:03,276 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-44-03-275Z.html
+2025-04-13 15:44:03,433 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-44-03-441Z.png
+2025-04-13 15:44:04,173 - INFO - Product in stock: Wako
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:44:04,474 - INFO - Discord notification sent successfully.
+2025-04-13 15:44:09,629 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1?currency=EUR
+2025-04-13 15:44:09,629 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1?currency=EUR
+2025-04-13 15:44:10,315 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:44:10,604 - INFO - Discord notification sent successfully.
+2025-04-13 15:44:10,775 - INFO - Auth file age: 2.54 hours (max: 24.00 hours)
+2025-04-13 15:44:10,775 - INFO - Using stored auth state.
+2025-04-13 15:44:11,106 - INFO - Auth file age: 2.54 hours (max: 24.00 hours)
+2025-04-13 15:44:11,106 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1?currency=EUR
+2025-04-13 15:44:58,268 - ERROR - Timeout loading page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1111020c1?currency=EUR
+2025-04-13 15:45:09,670 - INFO - Discord notification sent successfully.
+2025-04-13 15:45:14,673 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1?currency=EUR
+2025-04-13 15:45:14,673 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1?currency=EUR
+2025-04-13 15:45:15,370 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:45:15,762 - INFO - Discord notification sent successfully.
+2025-04-13 15:45:15,902 - INFO - Auth file age: 2.55 hours (max: 24.00 hours)
+2025-04-13 15:45:15,902 - INFO - Using stored auth state.
+2025-04-13 15:45:16,219 - INFO - Auth file age: 2.55 hours (max: 24.00 hours)
+2025-04-13 15:45:16,219 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1121020c1?currency=EUR
+2025-04-13 15:45:22,733 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-45-22-733Z.png
+2025-04-13 15:45:23,673 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-45-23-673Z.html
+2025-04-13 15:45:23,852 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-45-23-856Z.png
+2025-04-13 15:45:24,707 - INFO - Product in stock: Choan
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:45:36,225 - INFO - Discord notification sent successfully.
+2025-04-13 15:45:41,360 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1?currency=EUR
+2025-04-13 15:45:41,360 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1?currency=EUR
+2025-04-13 15:45:42,079 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:45:53,577 - INFO - Discord notification sent successfully.
+2025-04-13 15:45:53,746 - INFO - Auth file age: 2.56 hours (max: 24.00 hours)
+2025-04-13 15:45:53,746 - INFO - Using stored auth state.
+2025-04-13 15:45:54,035 - INFO - Auth file age: 2.56 hours (max: 24.00 hours)
+2025-04-13 15:45:54,035 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1131020c1?currency=EUR
+2025-04-13 15:46:10,320 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-46-10-319Z.png
+2025-04-13 15:46:11,013 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-46-11-011Z.html
+2025-04-13 15:46:11,185 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-46-11-186Z.png
+2025-04-13 15:46:11,858 - INFO - Product in stock: Eiju
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:46:12,189 - INFO - Discord notification sent successfully.
+2025-04-13 15:46:17,297 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1?currency=EUR
+2025-04-13 15:46:17,297 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1?currency=EUR
+2025-04-13 15:46:18,031 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:46:18,558 - INFO - Discord notification sent successfully.
+2025-04-13 15:46:18,718 - INFO - Auth file age: 2.57 hours (max: 24.00 hours)
+2025-04-13 15:46:18,718 - INFO - Using stored auth state.
+2025-04-13 15:46:19,026 - INFO - Auth file age: 2.57 hours (max: 24.00 hours)
+2025-04-13 15:46:19,026 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1151020c1?currency=EUR
+2025-04-13 15:46:34,676 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-46-34-676Z.png
+2025-04-13 15:46:35,504 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-46-35-511Z.html
+2025-04-13 15:46:35,672 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-46-35-674Z.png
+2025-04-13 15:46:36,448 - INFO - Product in stock: Kinrin
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:46:48,039 - INFO - Discord notification sent successfully.
+2025-04-13 15:46:53,212 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1?currency=EUR
+2025-04-13 15:46:53,213 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1?currency=EUR
+2025-04-13 15:46:53,922 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:46:54,434 - INFO - Discord notification sent successfully.
+2025-04-13 15:46:54,584 - INFO - Auth file age: 2.58 hours (max: 24.00 hours)
+2025-04-13 15:46:54,584 - INFO - Using stored auth state.
+2025-04-13 15:46:54,867 - INFO - Auth file age: 2.58 hours (max: 24.00 hours)
+2025-04-13 15:46:54,867 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1171020c1?currency=EUR
+2025-04-13 15:46:59,546 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-46-59-550Z.png
+2025-04-13 15:47:00,307 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-47-00-307Z.html
+2025-04-13 15:47:00,456 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-47-00-457Z.png
+2025-04-13 15:47:01,135 - INFO - Product in stock: Yugen
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:47:05,680 - INFO - Discord notification sent successfully.
+2025-04-13 15:47:10,852 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1?currency=EUR
+2025-04-13 15:47:10,852 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1?currency=EUR
+2025-04-13 15:47:11,537 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:47:23,056 - INFO - Discord notification sent successfully.
+2025-04-13 15:47:23,190 - INFO - Auth file age: 2.59 hours (max: 24.00 hours)
+2025-04-13 15:47:23,190 - INFO - Using stored auth state.
+2025-04-13 15:47:23,450 - INFO - Auth file age: 2.59 hours (max: 24.00 hours)
+2025-04-13 15:47:23,450 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1?currency=EUR
+2025-04-13 15:48:08,836 - ERROR - Timeout loading page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1181040c1?currency=EUR
+2025-04-13 15:48:10,350 - INFO - Discord notification sent successfully.
+2025-04-13 15:48:15,353 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1?currency=EUR
+2025-04-13 15:48:15,353 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1?currency=EUR
+2025-04-13 15:48:16,038 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:48:20,360 - INFO - Discord notification sent successfully.
+2025-04-13 15:48:20,508 - INFO - Auth file age: 2.60 hours (max: 24.00 hours)
+2025-04-13 15:48:20,508 - INFO - Using stored auth state.
+2025-04-13 15:48:20,818 - INFO - Auth file age: 2.60 hours (max: 24.00 hours)
+2025-04-13 15:48:20,818 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/1191040c1?currency=EUR
+2025-04-13 15:48:36,599 - INFO - Taking debug screenshot: debug_screenshots\product_page_2025-04-13T13-48-36-604Z.png
+2025-04-13 15:48:37,295 - INFO - Saving debug HTML: debug_screenshots\product_page_2025-04-13T13-48-37-296Z.html
+2025-04-13 15:48:37,440 - INFO - Taking debug screenshot: debug_screenshots\availability_check_2025-04-13T13-48-37-446Z.png
+2025-04-13 15:48:38,122 - INFO - Product in stock: Isuzu
+Variants:
+No variants with Euro prices found.
+2025-04-13 15:48:38,587 - INFO - Discord notification sent successfully.
+2025-04-13 15:48:43,760 - INFO - Checking product: https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1?currency=EUR
+2025-04-13 15:48:43,762 - INFO - Starting stock check for: https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1?currency=EUR
+2025-04-13 15:48:44,427 - INFO - Sending debug info to Discord: Starting stock check
+URL: https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1?currency=EUR
+Login URL: https://www.marukyu-koyamaen.co.jp/english/my-account/
+2025-04-13 15:48:49,445 - INFO - Discord notification sent successfully.
+2025-04-13 15:48:49,594 - INFO - Auth file age: 2.61 hours (max: 24.00 hours)
+2025-04-13 15:48:49,594 - INFO - Using stored auth state.
+2025-04-13 15:48:49,890 - INFO - Auth file age: 2.61 hours (max: 24.00 hours)
+2025-04-13 15:48:49,890 - INFO - Navigating to product page: https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1?currency=EUR
+2025-04-13 15:49:36,710 - ERROR - Timeout loading page: https://www.marukyu-koyamaen.co.jp/english/shop/products/11a1040c1?currency=EUR
+2025-04-13 15:49:37,050 - INFO - Discord notification sent successfully.
