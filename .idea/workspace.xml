@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce48eef7-9330-4c48-991d-220a9e6b87b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="ce48eef7-9330-4c48-991d-220a9e6b87b6" name="Changes" comment="final matcha bot">
       <change afterPath="$PROJECT_DIR$/matcha_bot2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matcha_bot3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NotifyBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NotifyBot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matcha_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/matcha_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matcha_bot3.py" beforeDir="false" afterPath="$PROJECT_DIR$/matcha_bot3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +76,36 @@
       <workItem from="1748338740017" duration="2000" />
       <workItem from="1748953615107" duration="2493000" />
       <workItem from="1750844178950" duration="2102000" />
+      <workItem from="1751369407081" duration="2740000" />
+      <workItem from="1751461463420" duration="468000" />
     </task>
+    <task id="LOCAL-00001" summary="final matcha bot">
+      <option name="closed" value="true" />
+      <created>1751370461922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751370461922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final matcha bot">
+      <option name="closed" value="true" />
+      <created>1751371120970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751371120970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final matcha bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="final matcha bot" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NotifyBot$matcha_bot3.coverage" NAME="matcha_bot3 Coverage Results" MODIFIED="1750844187543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NotifyBot$matcha_bot3.coverage" NAME="matcha_bot3 Coverage Results" MODIFIED="1751461775274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
