@@ -94,9 +94,4 @@ This project was created to automate a common personal task: tracking availabili
 
 This project is licensed under the MIT License.
 
----
-
-Developed by Nicole Romero
-
-```
 
